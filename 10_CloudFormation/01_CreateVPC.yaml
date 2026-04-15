@@ -145,8 +145,3 @@ Outputs:
     Export:
       Name: !Sub ${AWS::StackName}-PrivateSubnet
     Value: !Ref PrivateSubnet
-
-  PrivateReplicaSubnetId:
-    Export:
-      Name: !Sub ${AWS::StackName}-PrivateSubnetReplica
-    Value: !Ref PrivateSubnetReplica

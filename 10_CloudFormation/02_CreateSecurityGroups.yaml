@@ -1,0 +1,70 @@
+---
+AWSTemplateFormatVersion: '2010-09-09'
+Description: CloudChaps training series stack 02-Deploy security groups in private and public ccPublicSubnet1RouteTableAssociation:
+
+Parameters:
+  VPCName:
+    Description: Please enter the name for this VPC
+    Type: String
+    Default: CloudChaps-Resorts-VPC
+
+Resources:
+
+# 09/03 - Security Group for Web Servers (HTTP, HTTPS, SSH)
+  ccWebServerSecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: Enable Ports 80, 443
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 8080
+          ToPort: 8080
+          CidrIp: 0.0.0.0/0
+        - IpProtocol: tcp
+          FromPort: 22
+          ToPort: 22
+          CidrIp: 0.0.0.0/0
+      VpcId: 
+        Fn::ImportValue: DEV01EC2Instances-MainVPC
+      Tags:
+        - Key: Name
+          Value: !Sub "${VPCName}-API-SG"
+        - Key: Project
+          Value: CloudChaps
+        - Key: Environment
+          Value: Development
+        - Key: Owner
+          Value: !Ref AWS::AccountId
+
+# 02 - Security Group for DB (Port 3306)
+  ccDBSecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: Enable Ports 3306
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 3306
+          ToPort: 3306
+          SourceSecurityGroupId: !Ref ccWebServerSecurityGroup
+      VpcId: 
+        Fn::ImportValue: DEV01EC2Instances-MainVPC
+      Tags:
+        - Key: Name
+          Value: !Sub "${VPCName-MYSQL-SG"
+        - Key: Project
+          Value: CloudChaps
+        - Key: Environment
+          Value: Development
+        - Key: Owner
+          Value: !Ref AWS::AccountId 
+
+Outputs:
+ccWebServerSecurityGroupId:
+    Export:
+      Name: !Sub ${AWS::StackName}-ccWebServerSecurityGroup
+    Value: !Ref ccWebServerSecurityGroup
+    
+ccDBSecurityGroupId:
+    Export:
+      Name: !Sub ${AWS::StackName}-ccDBSecurityGroup
+    Value: !Ref ccDBSecurityGroup

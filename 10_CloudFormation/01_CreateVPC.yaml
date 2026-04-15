@@ -1,0 +1,152 @@
+---
+AWSTemplateFormatVersion: '2010-09-09'
+Description: CloudChaps Resorts Virtual Private Network configurations.
+
+Parameters:
+  VPCCidr:
+    Description: Please enter the IP range (CIDR notation) for this VPC
+    Type: String
+    Default: 10.0.0.0/24
+
+  PublicSubnetCidr:
+    Description: Please enter the IP range (CIDR notation) for the public Subnet
+    Type: String
+    Default: 10.0.0.0/25
+
+  PrivateSubnetCidr:
+    Description: Please enter the IP range (CIDR notation) for the private Subnet
+    Type: String
+    Default: 10.0.0.128/25
+
+  VPCName:
+    Description: Please enter the name for this VPC
+    Type: String
+    Default: CloudChaps-Resorts-VPC
+
+
+Resources:
+# 01 - Create Main VPC Statement
+  MainVPC:
+    Type: AWS::EC2::VPC
+    Properties:
+      CidrBlock: !Ref VPCCidr
+      EnableDnsHostnames: true
+      EnableDnsSupport: true
+      InstanceTenancy: default
+      Tags:
+        - Key: Name
+          Value: !Ref VPCName
+        - Key: Project
+          Value: CloudChaps_Resorts
+        - Key: Environment
+          Value: Development
+        - Key: Owner
+          Value: !Ref AWS::AccountId
+
+# 02 - Create Internet Gateway to connnect Public Subnet to the Internet
+  CCInternetGateway:
+    Type: AWS::EC2::InternetGateway
+    Properties:
+      Tags:
+        - Key: Name
+          Value: !Sub "${VPCName}-IGW"
+        - Key: Project
+          Value: CloudChaps_Resorts
+        - Key: Environment
+          Value: Development
+        - Key: Owner
+          Value: !Ref AWS::AccountId
+
+# 03 - Attach Internet Gateway to the VPC
+  CCAttachGateway:
+    Type: AWS::EC2::VPCGatewayAttachment
+    Properties:
+      VpcId: !Ref MainVPC
+      InternetGatewayId: !Ref CCInternetGateway
+
+# 04 - Create Public Subnet
+  PublicSubnet:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref MainVPC
+      CidrBlock: !Ref PublicSubnetCidr
+      AvailabilityZone: !Select [0, !GetAZs '']
+      MapPublicIpOnLaunch: true
+      Tags:
+        - Key: Name
+          Value: !Sub "${VPCName}-PublicSubnet"
+        - Key: Project
+          Value: CloudChaps_Resorts
+        - Key: Environment
+          Value: Development
+        - Key: Owner
+          Value: !Ref AWS::AccountId
+
+# 05 - Create Public Route Table
+  CCPublicRouteTable:
+    Type: AWS::EC2::RouteTable
+    Properties: 
+      VpcId: !Ref MainVPC
+      Tags:
+        - Key: Name
+          Value: !Sub "${VPCName}-PublicRT"
+        - Key: Project
+          Value: CloudChaps_Resorts
+        - Key: Environment
+          Value: Development
+        - Key: Owner
+          Value: !Ref AWS::AccountId
+
+# 06 - Create Public Route and associate it to the Public Subnet
+  ccPublicRoute: 
+    Type: AWS::EC2::Route
+    Properties:
+      DestinationCidrBlock: 0.0.0.0/0
+      GatewayId: !Ref CCInternetGateway
+      RouteTableId: !Ref CCPublicRouteTable
+
+# 07 - Associate Public Route Table with the Public Subnet
+  ccPublicSubnet1RouteTableAssociation:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      RouteTableId: !Ref CCPublicRouteTable
+      SubnetId: !Ref PublicSubnet
+
+# 08 - Create Private Subnet
+  PrivateSubnet:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref MainVPC
+      CidrBlock: !Ref PrivateSubnetCidr
+      AvailabilityZone: !Select [0, !GetAZs '']
+      MapPublicIpOnLaunch: false
+      Tags:
+        - Key: Name
+          Value: !Sub "${VPCName}-PrivateSubnet"
+        - Key: Project
+          Value: CloudChaps_Resorts
+        - Key: Environment
+          Value: Development
+        - Key: Owner
+          Value: !Ref AWS::AccountId
+
+Outputs:
+  VPCId:
+    Export:
+      Name: !Sub ${AWS::StackName}-MainVPC
+    Value: !Ref MainVPC
+  
+  PublicSubnetId:
+    Export:
+      Name: !Sub ${AWS::StackName}-PublicSubnet
+    Value: !Ref PublicSubnet
+
+  PrivateSubnetId:
+    Export:
+      Name: !Sub ${AWS::StackName}-PrivateSubnet
+    Value: !Ref PrivateSubnet
+
+  PrivateReplicaSubnetId:
+    Export:
+      Name: !Sub ${AWS::StackName}-PrivateSubnetReplica
+    Value: !Ref PrivateSubnetReplica

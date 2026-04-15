@@ -1,0 +1,129 @@
+---
+AWSTemplateFormatVersion: "2010-09-09"
+Description: CloudChaps EC2 instances stack - Backend (MySQL client) and Frontend (Tomcat10 + Java)
+
+Parameters:
+  VPCID:
+    Type: AWS::EC2::VPC::Id
+    Default: vpc-0e445e8482559fb54
+
+  SubnetID:
+    Type: AWS::EC2::Subnet::Id
+    Default: subnet-0de350514b653fa3a
+
+  AMIID:
+    Type: AWS::EC2::Image::Id
+    Default: ami-0ec10929233384c7f
+
+  KeyName:
+    Type: AWS::EC2::KeyPair::KeyName
+
+Resources:
+  ccBackendSecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: Backend server - allows MySQL from frontend and SSH
+      VpcId: !Ref VPCID
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 3306
+          ToPort: 3306
+          SourceSecurityGroupId: !Ref ccFrontendSecurityGroup
+        - IpProtocol: tcp
+          FromPort: 22
+          ToPort: 22
+          CidrIp: 0.0.0.0/0
+
+  ccFrontendSecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: Frontend server - allows HTTP on 8080 and SSH
+      VpcId: !Ref VPCID
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 8080
+          ToPort: 8080
+          CidrIp: 0.0.0.0/0
+        - IpProtocol: tcp
+          FromPort: 22
+          ToPort: 22
+          CidrIp: 0.0.0.0/0
+
+  ccBackendServer:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: t2.micro
+      ImageId: !Ref AMIID
+      NetworkInterfaces:
+        - AssociatePublicIpAddress: true
+          DeviceIndex: 0
+          SubnetId: !Ref SubnetID
+          GroupSet:
+            - !Ref ccBackendSecurityGroup
+      KeyName: !Ref KeyName
+      Tags:
+        - Key: Name
+          Value: !Sub "${AWS::StackName}-Backend-Server"
+        - Key: Project
+          Value: CloudChaps_Resorts
+        - Key: Environment
+          Value: Development
+      UserData:
+        Fn::Base64:
+          !Sub |
+            #!/bin/bash -xe
+            apt update -y
+            apt-get install -y mysql-server net-tools
+            # 1. Allow remote connections
+            sed -i 's/bind-address.*=.*127.0.0.1/bind-address            = 0.0.0.0/' /etc/mysql/mysql.conf.d/mysqld.cnf
+            # 2. Restart MySQL
+            systemctl restart mysql
+            # 3. Create DB, user and grant privileges
+            mysql -u root <<EOF
+            CREATE DATABASE IF NOT EXISTS cloudchaps_hotels;
+            CREATE USER IF NOT EXISTS 'db_admin'@'%' IDENTIFIED BY 'DB_PASSWORD';
+            GRANT ALL PRIVILEGES ON cloudchaps_hotels.* TO 'db_admin'@'%';
+            FLUSH PRIVILEGES;
+            EOF
+
+  ccFrontendServer:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: t2.micro
+      ImageId: !Ref AMIID
+      NetworkInterfaces:
+        - AssociatePublicIpAddress: true
+          DeviceIndex: 0
+          SubnetId: !Ref SubnetID
+          GroupSet:
+            - !Ref ccFrontendSecurityGroup
+      KeyName: !Ref KeyName
+      Tags:
+        - Key: Name
+          Value: !Sub "${AWS::StackName}-FrontEnd-Server"
+        - Key: Project
+          Value: CloudChaps_Resorts
+        - Key: Environment
+          Value: Development
+      UserData:
+        Fn::Base64:
+          !Sub
+            |
+            #!/bin/bash -xe
+            apt update -y
+            apt upgrade -y
+            apt install -y openjdk-21-jdk
+            apt install -y tomcat10 tomcat10-admin tomcat10-docs tomcat10-common mysql-client
+            # 1. Set DB env vars via systemd override
+            mkdir -p /etc/systemd/system/tomcat10.service.d
+            cat > /etc/systemd/system/tomcat10.service.d/override.conf <<EOF
+            [Service]
+            Environment="DB_URL=jdbc:mysql://BACKEND_IP:3306/cloudchaps_hotels?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC"
+            Environment="DB_USERNAME=DB_USERNAME"
+            Environment="DB_PASSWORD=DB_PASSWORD"
+            EOF
+            # 2. Daemon reload
+            systemctl daemon-reload
+            # 3. Enable and restart Tomcat
+            systemctl enable tomcat10
+            systemctl restart tomcat10

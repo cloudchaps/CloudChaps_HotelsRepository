@@ -23,7 +23,6 @@ jobs:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: us-east-1
-        role-to-assume: ${{ secrets.DEV_ROLE_ARN }}
 
     - name: Validate VPC Cloudformation template files
       run: |
@@ -37,10 +36,12 @@ jobs:
       run: |
         aws cloudformation deploy \
           --template-file ./10_CloudFormation/01_CreateVPC.yaml \
-          --stack-name DEV01VPCManagement 
+          --stack-name DEV01VPCManagement \
+          --role-arn ${{ secrets.DEV_ROLE_ARN }}
     
     - name: Deploy Security groups
       run: |
         aws cloudformation deploy \
           --template-file ./10_CloudFormation/02_CreateSecurityGroups.yaml \
-          --stack-name DEV02SecurityGroupsManagement 
+          --stack-name DEV02SecurityGroupsManagement \
+          --role-arn ${{ secrets.DEV_ROLE_ARN }}

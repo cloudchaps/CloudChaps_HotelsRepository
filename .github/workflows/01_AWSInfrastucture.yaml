@@ -31,6 +31,10 @@ jobs:
     - name: Validate Security Groups Cloudformation template files
       run: |
         aws cloudformation validate-template --template-body file://./10_CloudFormation/02_CreateSecurityGroups.yaml
+
+    - name: Validate NatGateway Cloudformation template files
+      run: |
+        aws cloudformation validate-template --template-body file://./10_CloudFormation/03_CreateNATGateway.yaml
     
     - name: Deploy VPC, Internet Gateway and Route Table
       run: |
@@ -44,4 +48,11 @@ jobs:
         aws cloudformation deploy \
           --template-file ./10_CloudFormation/02_CreateSecurityGroups.yaml \
           --stack-name DEV02SecurityGroupsManagement \
+          --role-arn ${{ secrets.DEV_ROLE_ARN }}
+
+    - name: Deploy NatGateway groups
+      run: |
+        aws cloudformation deploy \
+          --template-file ./10_CloudFormation/03_CreateNATGateway.yaml \
+          --stack-name DEV03NatGateway \
           --role-arn ${{ secrets.DEV_ROLE_ARN }}

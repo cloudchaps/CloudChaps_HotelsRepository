@@ -1,12 +1,17 @@
 ---
 AWSTemplateFormatVersion: '2010-09-09'
-Description: CloudChaps NatGateway Creation to communicate backend subnet
+Description: CloudChaps 03-NatGateway Creation to communicate backend subnet
 
 Parameters:
   VPCName:
     Description: Please enter the name for this VPC
     Type: String
     Default: CloudChaps-Resorts-VPC
+  
+  VPCId:
+    Description: Please enter the VPC ID that was created in the previous module
+    Type: String
+    Default: vpc-086470fd4a1efe9d3
 
 Resources:
   # 01 - Allocate Elastic IP
@@ -45,8 +50,7 @@ Resources:
   PrivateRouteTable:
     Type: AWS::EC2::RouteTable
     Properties:
-      VpcId: 
-        Fn::ImportValue: DEV01VPCManagement-MainVPC
+      VpcId: !Ref VPCId
       Tags:
         - Key: Name
           Value: !Sub "${VPCName}-PrivateRouteTable"
@@ -71,5 +75,5 @@ Resources:
     Type: AWS::EC2::SubnetRouteTableAssociation
     Properties:
       SubnetId: 
-        Fn::ImportValue: DEV01VPCManagement-MainVPC
+        Fn::ImportValue: DEV01VPCManagement-PrivateSubnet
       RouteTableId: !Ref PrivateRouteTable

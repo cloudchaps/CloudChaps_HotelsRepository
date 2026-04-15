@@ -26,9 +26,9 @@ jobs:
         aws-region: us-east-1
     
     - name: Deploy EC2 Instances
-      run: aws cloudformation deploy >
-        --template-file ./99_CloudFormation/02_CreateEC2Instances.yaml > 
-        --stack-name DEV01EC2Instances > 
-        --parameter-overrides >
-          KeyName=${{ secrets.AWS_KEYPAIR_NAME }} >
-        --role-arn ${{ secrets.DEV_ROLE_ARN }}
+      run: |
+        aws cloudformation deploy \
+          --template-file ./99_CloudFormation/02_CreateEC2Instances.yaml \
+          --stack-name DEV01EC2Instances \
+          --parameter-overrides KeyName=${{ secrets.AWS_KEYPAIR_NAME }} \
+          --role-arn ${{ secrets.DEV_ROLE_ARN }}

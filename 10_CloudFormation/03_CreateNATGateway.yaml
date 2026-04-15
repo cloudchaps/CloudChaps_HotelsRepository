@@ -1,6 +1,6 @@
 ---
 AWSTemplateFormatVersion: '2010-09-09'
-Description: CloudChaps 03-NatGateway Creation to communicate backend subnet
+Description: CloudChaps Resorts 03-NatGateway Creation to communicate backend subnet
 
 Parameters:
   VPCName:

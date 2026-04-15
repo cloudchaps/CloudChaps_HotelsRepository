@@ -1,0 +1,2 @@
+# AWS INFRASTUCTURE PIPELINE
+[![Build AWS infrastucture via cloud Formation](https://github.com/cloudchaps/CloudChaps_HotelsRepository/actions/workflows/01_AWSInfrastucture.yaml/badge.svg)](https://github.com/cloudchaps/CloudChaps_HotelsRepository/actions/workflows/01_AWSInfrastucture.yaml)

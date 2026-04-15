@@ -1,6 +1,6 @@
 ---
 AWSTemplateFormatVersion: '2010-09-09'
-Description: CloudChaps training series stack 02-Deploy security groups in private and public ccPublicSubnet1RouteTableAssociation
+Description: CloudChaps 02-Deploy security groups in private and public ccPublicSubnet1RouteTableAssociation
 
 Parameters:
   VPCName:

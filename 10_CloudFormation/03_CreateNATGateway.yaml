@@ -50,7 +50,8 @@ Resources:
   PrivateRouteTable:
     Type: AWS::EC2::RouteTable
     Properties:
-      VpcId: !Ref VPCId
+      VpcId: 
+        Fn::ImportValue: DEV01VPCManagement-MainVPC
       Tags:
         - Key: Name
           Value: !Sub "${VPCName}-PrivateRouteTable"

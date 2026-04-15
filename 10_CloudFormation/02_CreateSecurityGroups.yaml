@@ -59,12 +59,12 @@ Resources:
           Value: !Ref AWS::AccountId 
 
 Outputs:
-ccWebServerSecurityGroupId:
+  ccWebServerSecurityGroupId:
     Export:
       Name: !Sub ${AWS::StackName}-ccWebServerSecurityGroup
     Value: !Ref ccWebServerSecurityGroup
     
-ccDBSecurityGroupId:
+  ccDBSecurityGroupId:
     Export:
       Name: !Sub ${AWS::StackName}-ccDBSecurityGroup
     Value: !Ref ccDBSecurityGroup

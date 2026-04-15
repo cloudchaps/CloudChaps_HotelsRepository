@@ -1,0 +1,75 @@
+---
+AWSTemplateFormatVersion: '2010-09-09'
+Description: CloudChaps NatGateway Creation to communicate backend subnet
+
+Parameters:
+  VPCName:
+    Description: Please enter the name for this VPC
+    Type: String
+    Default: CloudChaps-Resorts-VPC
+
+Resources:
+  # 01 - Allocate Elastic IP
+  NatGatewayEIP:
+    Type: AWS::EC2::EIP
+    Properties:
+      Domain: vpc
+      Tags:
+        - Key: Name
+          Value: !Sub "${VPCName}-NatGateway-EIP"
+        - Key: Project
+          Value: CloudChaps
+        - Key: Environment
+          Value: Development
+        - Key: Owner
+          Value: !Ref AWS::AccountId
+  
+  # 02 - Create NAT Gateway
+  NatGateway:
+    Type: AWS::EC2::NatGateway
+    Properties:
+      AllocationId: !GetAtt NatGatewayEIP.AllocationId
+      SubnetId: 
+        Fn::ImportValue: DEV01VPCManagement-PublicSubnet
+      Tags:
+        - Key: Name
+          Value: !Sub "${VPCName}-NatGateway"
+        - Key: Project
+          Value: CloudChaps
+        - Key: Environment
+          Value: Development
+        - Key: Owner
+          Value: !Ref AWS::AccountId 
+  
+  # 03 - Create Private Route Tables
+  PrivateRouteTable:
+    Type: AWS::EC2::RouteTable
+    Properties:
+      VpcId: 
+        Fn::ImportValue: DEV01VPCManagement-MainVPC
+      Tags:
+        - Key: Name
+          Value: !Sub "${VPCName}-PrivateRouteTable"
+        - Key: Project
+          Value: CloudChaps
+        - Key: Environment
+          Value: Development
+        - Key: Owner
+          Value: !Ref AWS::AccountId
+
+  # 04 - Create Private Routes
+  PrivateRoute1:
+    Type: AWS::EC2::Route
+    DependsOn: NatGateway
+    Properties:
+      RouteTableId: !Ref PrivateRouteTable
+      DestinationCidrBlock: 0.0.0.0/0
+      NatGatewayId: !Ref NatGateway
+
+  # 05 - Associate Private Route Tables with Private Subnets
+  PrivateSubnetRouteTableAssociation1:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      SubnetId: 
+        Fn::ImportValue: DEV01VPCManagement-MainVPC
+      RouteTableId: !Ref PrivateRouteTable

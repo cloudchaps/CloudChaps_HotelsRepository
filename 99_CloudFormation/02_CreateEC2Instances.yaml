@@ -61,6 +61,13 @@ Resources:
           GroupSet:
             - !Ref ccBackendSecurityGroup
       KeyName: !Ref KeyName
+      Tags:
+        - Key: Name
+          Value: !Sub "${AWS::StackName}-Backend-Server"
+        - Key: Project
+          Value: CloudChaps_Resorts
+        - Key: Environment
+          Value: Development
       UserData:
         Fn::Base64:
           !Sub |
@@ -91,6 +98,13 @@ Resources:
           GroupSet:
             - !Ref ccFrontendSecurityGroup
       KeyName: !Ref KeyName
+      Tags:
+        - Key: Name
+          Value: !Sub "${AWS::StackName}-FrontEnd-Server"
+        - Key: Project
+          Value: CloudChaps_Resorts
+        - Key: Environment
+          Value: Development
       UserData:
         Fn::Base64:
           !Sub

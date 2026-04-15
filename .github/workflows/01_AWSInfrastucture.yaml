@@ -5,7 +5,7 @@ on:
     branches: [ development ]
   
     paths:
-      - '99_CloudFormation/*'
+      - '10_CloudFormation/*'
 
 jobs:
   build:

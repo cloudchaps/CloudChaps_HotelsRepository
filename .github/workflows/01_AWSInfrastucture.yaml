@@ -4,9 +4,9 @@ on:
   push:
     branches: [ main ]
   
-  paths:
-    - '02_CreateEC2Instances.yaml'
-    - '99_CloudFormation/*'
+    paths:
+      - '02_CreateEC2Instances.yaml'
+      - '99_CloudFormation/*'
 
 jobs:
   build:

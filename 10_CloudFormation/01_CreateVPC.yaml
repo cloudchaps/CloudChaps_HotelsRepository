@@ -134,7 +134,7 @@ Outputs:
   VPCId:
     Export:
       Name: !Sub ${AWS::StackName}-MainVPC
-    Value: !GetAtt MainVPC.id
+    Value: !Ref MainVPC
     Description: The ID of the Main VPC
   
   PublicSubnetId:

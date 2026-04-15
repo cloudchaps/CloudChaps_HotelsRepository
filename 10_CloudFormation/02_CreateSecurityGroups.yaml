@@ -30,7 +30,7 @@ Resources:
         - Key: Name
           Value: !Sub "${VPCName}-API-SG"
         - Key: Project
-          Value: CloudChaps
+          Value: CloudChaps_Resorts
         - Key: Environment
           Value: Development
         - Key: Owner
@@ -52,7 +52,7 @@ Resources:
         - Key: Name
           Value: !Sub "${VPCName-MYSQL-SG"
         - Key: Project
-          Value: CloudChaps
+          Value: CloudChaps_Resorts
         - Key: Environment
           Value: Development
         - Key: Owner

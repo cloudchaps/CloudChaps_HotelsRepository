@@ -25,7 +25,7 @@ Resources:
           ToPort: 22
           CidrIp: 0.0.0.0/0
       VpcId: 
-        Fn::ImportValue: DEV01EC2Instances-MainVPC
+        Fn::ImportValue: DEV01VPCManagement-MainVPC
       Tags:
         - Key: Name
           Value: !Sub "${VPCName}-API-SG"
@@ -47,7 +47,7 @@ Resources:
           ToPort: 3306
           SourceSecurityGroupId: !Ref ccWebServerSecurityGroup
       VpcId: 
-        Fn::ImportValue: DEV01EC2Instances-MainVPC
+        Fn::ImportValue: DEV01VPCManagement-MainVPC
       Tags:
         - Key: Name
           Value: !Sub "${VPCName-MYSQL-SG"

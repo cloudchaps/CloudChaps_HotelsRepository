@@ -24,9 +24,16 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: us-east-1
     
-    - name: Deploy EC2 Instances
+    - name: Deploy VPC, Internet Gateway and Route Table
       run: |
         aws cloudformation deploy \
-          --template-file ./99_CloudFormation/01_CreateVPC.yaml \
-          --stack-name DEV01EC2Instances \
+          --template-file ./10_CloudFormation/01_CreateVPC.yaml \
+          --stack-name DEV01VPCManagement \
+          --role-arn ${{ secrets.DEV_ROLE_ARN }}
+    
+    - name: Deploy Security groups
+      run: |
+        aws cloudformation deploy \
+          --template-file ./10_CloudFormation/02_CreateSecurityGroups.yaml \
+          --stack-name DEV02SecurityGroupsManagement \
           --role-arn ${{ secrets.DEV_ROLE_ARN }}

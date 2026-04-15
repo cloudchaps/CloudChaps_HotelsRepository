@@ -74,7 +74,7 @@ Resources:
             # 3. Create DB, user and grant privileges
             mysql -u root <<EOF
             CREATE DATABASE IF NOT EXISTS cloudchaps_hotels;
-            CREATE USER IF NOT EXISTS 'db_admin'@'%' IDENTIFIED BY 'admin1234';
+            CREATE USER IF NOT EXISTS 'db_admin'@'%' IDENTIFIED BY 'DB_PASSWORD';
             GRANT ALL PRIVILEGES ON cloudchaps_hotels.* TO 'db_admin'@'%';
             FLUSH PRIVILEGES;
             EOF

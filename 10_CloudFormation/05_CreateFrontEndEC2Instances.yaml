@@ -35,7 +35,9 @@ Parameters:
     Description: DB Password stored in SSM
 
   DBServerPrivateIP:
-    Fn::ImportValue: DEV04EC2BackendInstances-BackendPrivateIP
+    Type: String
+    Default: 10.0.2.100
+    Description: Please enter the DB Server Private IP
 
 Resources:
 

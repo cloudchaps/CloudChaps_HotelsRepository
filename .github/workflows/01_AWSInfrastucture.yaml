@@ -115,4 +115,7 @@ jobs:
           --parameter-overrides \
             AMIID=ami-0ec10929233384c7f \
             KeyName=cloudchaps_resorts_keypair \
-            Environment=development
+            Environment=development \
+            DBServerPrivateIP=$(aws cloudformation list-exports \
+              --query "Exports[?Name=='DEV04EC2BackendInstances-BackendPrivateIP'].Value" \
+              --output text)

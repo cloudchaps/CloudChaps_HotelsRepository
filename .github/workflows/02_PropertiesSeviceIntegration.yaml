@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Get latest commit from repo
-      uses: actions/checkout@v2
+      uses: actions/checkout@v
       with:
         fetch-depth: 0
     
@@ -24,7 +24,7 @@ jobs:
     
     - name: Build with Maven 
       run: mvn clean package -DskipTests=true
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       with:
         name: app-war
         path: 01_Properties/target/*.war
@@ -34,7 +34,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Download artifact
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: app-war
         path: target

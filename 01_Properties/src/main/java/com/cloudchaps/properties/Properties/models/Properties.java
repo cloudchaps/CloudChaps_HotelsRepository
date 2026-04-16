@@ -54,7 +54,7 @@ public class Properties {
     @Column(name = "property_description")
     private String description;
 
-    @OneToMany(mappedBy = "property", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "property", cascade = CascadeType.ALL, fetch = FetchType.LAZY, orphanRemoval = true)
     private List<Amenities> amenities;
 
     @CreationTimestamp

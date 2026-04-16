@@ -35,7 +35,7 @@ public class PropertiesMapper {
                 amenity.setProperty(p);
                 return amenity;
             })
-            .collect(Collectors.toList()) : Collections.emptyList();
+            .collect(Collectors.toList()) : Collections.emptyList(); 
         p.setAmenities(amenities);
         return p;
         //p.setCreatedAt(LocalDateTime.now());

@@ -11,6 +11,7 @@ import lombok.Setter;
 
 @Getter @Setter @NoArgsConstructor @AllArgsConstructor
 public class AmenitiesDTO {
+    private Long id;
     private String amenityName;
     private AmenityEnum amenityType;
     private String amenityDescription;

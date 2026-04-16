@@ -4,7 +4,7 @@ Description: CloudChaps 02-Deploy security groups in private and public ccPublic
 
 Parameters:
   VPCName:
-    Description: Please enter the name for this VPC
+    Description: Please enter the name for this VPC required value
     Type: String
     Default: CloudChaps-Resorts-VPC
   

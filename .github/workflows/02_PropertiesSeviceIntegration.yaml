@@ -66,7 +66,7 @@ jobs:
         script: | 
           # Stop Tomcat 
           sudo systemctl stop tomcat10 
-          sudo ls -al
+          sudo ls -al /tmp &&
           # Remove old app (optional) 
           sudo rm -rf /var/lib/tomcat10/webapps/ROOT
           # Move new WAR 

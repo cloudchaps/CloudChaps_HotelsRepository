@@ -23,6 +23,10 @@ Parameters:
     Type: String
     Default: CloudChaps-Resorts-VPC
 
+  Env:
+    Description: Please enter the environment name
+    Type: String
+    Default: Development
 
 Resources:
 # 01 - Create Main VPC Statement
@@ -39,7 +43,7 @@ Resources:
         - Key: Project
           Value: CloudChaps_Resorts
         - Key: Environment
-          Value: Development
+          Value: !Ref Env
         - Key: Owner
           Value: !Ref AWS::AccountId
 
@@ -53,7 +57,7 @@ Resources:
         - Key: Project
           Value: CloudChaps_Resorts
         - Key: Environment
-          Value: Development
+          Value: !Ref Env
         - Key: Owner
           Value: !Ref AWS::AccountId
 
@@ -78,7 +82,7 @@ Resources:
         - Key: Project
           Value: CloudChaps_Resorts
         - Key: Environment
-          Value: Development
+          Value: !Ref Env
         - Key: Owner
           Value: !Ref AWS::AccountId
 
@@ -93,7 +97,7 @@ Resources:
         - Key: Project
           Value: CloudChaps_Resorts
         - Key: Environment
-          Value: Development
+          Value: !Ref Env
         - Key: Owner
           Value: !Ref AWS::AccountId
 
@@ -126,7 +130,7 @@ Resources:
         - Key: Project
           Value: CloudChaps_Resorts
         - Key: Environment
-          Value: Development
+          Value: !Ref Env
         - Key: Owner
           Value: !Ref AWS::AccountId
 

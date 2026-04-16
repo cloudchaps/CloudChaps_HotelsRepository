@@ -1,0 +1,80 @@
+---
+AWSTemplateFormatVersion: "2010-09-09"
+Description: CloudChaps EC2 instances stack Frontend (Tomcat10 + Java)
+
+Parameters:
+  AMIID:
+    Type: AWS::EC2::Image::Id
+    Default: ami-0ec10929233384c7f
+
+  KeyName:
+    Type: AWS::EC2::KeyPair::KeyName
+    Default: cloudchaps_resorts_keypair
+
+  Env:
+    Description: Please enter the environment name
+    Type: String
+    Default: Development
+
+  InstanceType:
+    Type: String
+    Default: t2.micro
+    AllowedValues:
+      - t2.micro
+      - t2.small
+      - t2.medium
+
+  DBUserName:
+    Type: AWS::SSM::Parameter::Value<String>
+    Default: /CloudChaps_DEV_dbUserName
+    Description: DB User Name stored in SSM
+  
+  DBMasterPassword:
+    Type: AWS::SSM::Parameter::Value<String>
+    Default: /CloudChaps_DEV_dbUserPassword
+    Description: DB Password stored in SSM
+
+  DBServerPrivateIP:
+    Fn::ImportValue: DEV04EC2BackendInstances-BackendPrivateIP
+
+Resources:
+
+  ccFrontendServer:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: !Ref InstanceType
+      ImageId: !Ref AMIID
+      SubnetId:
+        Fn::ImportValue: DEV01VPCManagement-PublicSubnet
+      SecurityGroupIds:
+        - Fn::ImportValue: DEV02SecurityGroupsManagement-ccWebServerSecurityGroup
+      KeyName: !Ref KeyName
+      Tags:
+        - Key: Name
+          Value: !Sub "${AWS::StackName}-FrontEnd-Server"
+        - Key: Project
+          Value: CloudChaps_Resorts
+        - Key: Environment
+          Value: !Ref Env
+      UserData:
+        Fn::Base64:
+          !Sub
+            |
+            #!/bin/bash -xe
+            apt update -y
+            apt upgrade -y
+            apt install -y openjdk-21-jdk
+            apt install -y tomcat10 tomcat10-admin tomcat10-docs tomcat10-common mysql-client
+            # 1. Set DB env vars via systemd override
+            mkdir -p /etc/systemd/system/tomcat10.service.d
+            cat > /etc/systemd/system/tomcat10.service.d/override.conf <<EOF
+            [Service]
+            Environment="DB_URL=jdbc:mysql://'${DBServerPrivateIP}':3306/cloudchaps_hotels?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC"
+            Environment="DB_USERNAME='${DBUserName}'"
+            Environment="DB_PASSWORD='${DBMasterPassword}'"
+            EOF
+            # 2. Daemon reload
+            systemctl daemon-reload
+            # 3. Enable and restart Tomcat
+            systemctl enable tomcat10
+            systemctl restart tomcat10

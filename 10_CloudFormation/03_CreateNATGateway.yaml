@@ -7,11 +7,11 @@ Parameters:
     Description: Please enter the name for this VPC
     Type: String
     Default: CloudChaps-Resorts-VPC
-  
-  VPCId:
-    Description: Please enter the VPC ID that was created in the previous module
+
+  Env:
+    Description: Please enter the environment name
     Type: String
-    Default: vpc-086470fd4a1efe9d3
+    Default: Development
 
 Resources:
   # 01 - Allocate Elastic IP
@@ -42,7 +42,7 @@ Resources:
         - Key: Project
           Value: CloudChaps
         - Key: Environment
-          Value: Development
+          Value: !Ref Env
         - Key: Owner
           Value: !Ref AWS::AccountId 
   
@@ -58,7 +58,7 @@ Resources:
         - Key: Project
           Value: CloudChaps
         - Key: Environment
-          Value: Development
+          Value: !Ref Env
         - Key: Owner
           Value: !Ref AWS::AccountId
 

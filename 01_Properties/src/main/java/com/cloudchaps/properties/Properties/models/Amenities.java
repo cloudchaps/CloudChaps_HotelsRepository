@@ -44,5 +44,6 @@ public class Amenities {
     private Boolean isIncluded;
 
     @Column(name = "amenity_cost")
-    private BigDecimal amenityCost;    
+    private BigDecimal amenityCost;   
+     
 }

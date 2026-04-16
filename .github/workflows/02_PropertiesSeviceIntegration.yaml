@@ -5,10 +5,7 @@ on:
     branches: [ development ]
 
     paths:
-      - '01_Properties/*'
-      - '01_Properties/*/*'
-      - '01_Properties/src/main/java/com/cloudchaps/properties/Properties/controllers/*'
-      - '01_Properties/src/main/java/com/cloudchaps/properties/Properties/controllers/*/*'
+      - '01_Properties/**'
 
 jobs:
   build:

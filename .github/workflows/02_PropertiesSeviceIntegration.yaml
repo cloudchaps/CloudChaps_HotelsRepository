@@ -20,14 +20,14 @@ jobs:
         java-version: '21'
     
     - name: cd into the application folder
-      run: cd 01_Properties && ls -la
+      run: cd 01_Properties && ls -la && ls -la target
     
     - name: Build with Maven 
       run: mvn clean package -f 01_Properties/pom.xml -DskipTests=true
     
     - name: Rename artifact 
       run: | 
-        cp /01_Properties/target/*.war properties.war
+        cp 01_Properties/target/*.war properties.war
 
     - name: Upload Artifact
       uses: actions/upload-artifact@v4

@@ -66,11 +66,11 @@ jobs:
         script: | 
           # Stop Tomcat 
           sudo systemctl stop tomcat10 
-          sudo ls -al /tmp &&
+          sudo ls -al /tmp/target
           # Remove old app (optional) 
           sudo rm -rf /var/lib/tomcat10/webapps/ROOT
           # Move new WAR 
-          sudo mv /tmp/Properties-0.0.1.war /var/lib/tomcat10/webapps/ROOT.war
+          sudo mv /tmp/target/Properties-0.0.1.war /var/lib/tomcat10/webapps/ROOT.war
           # Fix permissions (important)
           sudo chown tomcat:tomcat /var/lib/tomcat10/webapps/ROOT.war 
           # Start Tomcat 

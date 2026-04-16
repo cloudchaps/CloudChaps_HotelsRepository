@@ -8,7 +8,7 @@ on:
       - '10_CloudFormation/*'
 
 jobs:
-  build:
+  authentication:
     runs-on: ubuntu-latest
 
     steps:
@@ -23,7 +23,12 @@ jobs:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: us-east-1
+  
+  validation:
+    needs: authentication
+    runs-on: ubuntu-latest
 
+    steps:
     - name: Validate VPC Cloudformation template files
       run: |
         aws cloudformation validate-template --template-body file://./10_CloudFormation/01_CreateVPC.yaml
@@ -36,34 +41,70 @@ jobs:
       run: |
         aws cloudformation validate-template --template-body file://./10_CloudFormation/03_CreateNATGateway.yaml
 
-    - name: Validate EC2 Instances Cloudformation template files
+    - name: Validate EC2 Backend Instances Cloudformation template files
       run: |
         aws cloudformation validate-template --template-body file://./10_CloudFormation/04_CreateEC2Instances.yaml
     
+    - name: Validate EC2 Frontend Instances Cloudformation template files
+      run: |
+        aws cloudformation validate-template --template-body file://./10_CloudFormation/05_CreateFrontEndEC2Instances.yaml
+    
+  deployment:
+    needs: validation
+    runs-on: ubuntu-latest
+
+    steps:
     - name: Deploy VPC, Internet Gateway and Route Table
       run: |
         aws cloudformation deploy \
           --template-file ./10_CloudFormation/01_CreateVPC.yaml \
           --stack-name DEV01VPCManagement \
-          --role-arn ${{ secrets.DEV_ROLE_ARN }}
+          --role-arn ${{ secrets.DEV_ROLE_ARN }} \
+          --parameter-overrides \
+            VPCName=CloudChaps-Resorts-VPC-DEV \
+            VPCCidr=10.0.0.0/24 \
+            PublicSubnetCidr= 10.0.0.0/25 \
+            PrivateSubnetCidr= 10.0.0.128/25 \
+            Environment=development
     
-    - name: Deploy Security groups
+    - name: Deploy Security
       run: |
         aws cloudformation deploy \
           --template-file ./10_CloudFormation/02_CreateSecurityGroups.yaml \
           --stack-name DEV02SecurityGroupsManagement \
-          --role-arn ${{ secrets.DEV_ROLE_ARN }}
+          --role-arn ${{ secrets.DEV_ROLE_ARN }} \
+          --parameter-overrides \
+            VPCName=CloudChaps-Resorts-VPC-DEV \
+            Environment=development
 
-    - name: Deploy NatGateway groups
+    - name: Deploy NatGateway
       run: |
         aws cloudformation deploy \
           --template-file ./10_CloudFormation/03_CreateNATGateway.yaml \
-          --stack-name DEV03NatGateway \
-          --role-arn ${{ secrets.DEV_ROLE_ARN }}
+          --stack-name DEV03NatGatewayManagement \
+          --role-arn ${{ secrets.DEV_ROLE_ARN }} \
+          --parameter-overrides \
+            VPCName=CloudChaps-Resorts-VPC-DEV \
+            Environment=development
 
-    - name: Deploy NatGateway groups
+    - name: Deploy Backend EC2 Instances
       run: |
         aws cloudformation deploy \
           --template-file ./10_CloudFormation/04_CreateEC2Instances.yaml \
-          --stack-name DEV04EC2Instances \
-          --role-arn ${{ secrets.DEV_ROLE_ARN }}
+          --stack-name DEV04EC2BackendInstances \
+          --role-arn ${{ secrets.DEV_ROLE_ARN }} \
+          --parameter-overrides \
+            AMIID=ami-0ec10929233384c7f \
+            KeyName=cloudchaps_resorts_keypair \
+            Environment=development
+    
+    - name: Deploy Frontend EC2 Instances
+      run: |
+        aws cloudformation deploy \
+          --template-file ./10_CloudFormation/05_CreateFrontEndEC2Instances.yaml \
+          --stack-name DEV05EC2FrontServersInstances \
+          --role-arn ${{ secrets.DEV_ROLE_ARN }} \
+          --parameter-overrides \
+            AMIID=ami-0ec10929233384c7f \
+            KeyName=cloudchaps_resorts_keypair \
+            Environment=development

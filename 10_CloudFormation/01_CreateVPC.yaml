@@ -4,7 +4,7 @@ Description: CloudChaps Resorts Virtual Private Network configurations.
 
 Parameters:
   VPCCidr:
-    Description: Please enter the IP range (CIDR notation) for this VPC
+    Description: Please enter the IP range (CIDR notation) for this VPC required value
     Type: String
     Default: 10.0.0.0/24
 

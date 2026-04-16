@@ -71,8 +71,8 @@ jobs:
           --parameter-overrides \
             VPCName=CloudChaps-Resorts-VPC-DEV \
             VPCCidr=10.0.0.0/24 \
-            PublicSubnetCidr= 10.0.0.0/25 \
-            PrivateSubnetCidr= 10.0.0.128/25 \
+            PublicSubnetCidr=10.0.0.0/25 \
+            PrivateSubnetCidr=10.0.0.128/25 \
             Environment=development
     
     - name: Deploy Security

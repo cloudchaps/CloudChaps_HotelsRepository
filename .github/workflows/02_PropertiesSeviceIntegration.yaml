@@ -1,5 +1,5 @@
 ---
-name: Build AWS infrastucture via cloud Formation
+name: Build, package and deploy Properties API
 on:
   push:
     branches: [ development ]

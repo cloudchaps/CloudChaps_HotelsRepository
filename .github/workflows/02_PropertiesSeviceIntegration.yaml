@@ -54,7 +54,7 @@ jobs:
         host: ${{ secrets.HOST }} 
         username: ec2-user 
         key: ${{ secrets.SSH_KEY }} 
-        source: "/target/properties.war" 
+        source: "/target/Properties-0.0.1.war" 
         target: "/tmp" 
       
     - name: Deploy to Tomcat 
@@ -69,12 +69,9 @@ jobs:
           # Remove old app (optional) 
           sudo rm -rf /opt/tomcat10/webapps/ROOT* 
           # Move new WAR 
-          sudo mv /tmp/properties.war /var/lib/tomcat10/webapps/ROOT.war
+          sudo mv /tmp/Properties-0.0.1.war /var/lib/tomcat10/webapps/ROOT.war
           # Fix permissions (important)
-          sudo chown tomcat:tomcat /var/lib/tomcat10/webapps/properties.war 
+          sudo chown tomcat:tomcat /var/lib/tomcat10/webapps/ROOT.war 
           # Start Tomcat 
           sudo systemctl restart tomcat10
-    
-    
-  
 

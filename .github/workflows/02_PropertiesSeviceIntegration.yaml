@@ -25,6 +25,10 @@ jobs:
     - name: Build with Maven 
       run: mvn clean package -f 01_Properties/pom.xml -DskipTests=true
     
+    - name: Rename artifact 
+      run: | 
+        cp target/*.war properties.war
+
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
       with:
@@ -44,15 +48,32 @@ jobs:
     - name: list files
       run: ls -la target && ls -la
 
-    - name: Deploy to web server
-      uses: moonpathbg/scp_uploader@latest
-      with:
-          host: ${{ secrets.HOST }}
-          port: ${{ secrets.PORT }}
-          username: ${{ secrets.USERNAME }}
-          key : ${{ secrets.SSH_KEY }}
-          source: "./target/Properties-0.0.1.war"
-          target: "/var/lib/tomcat10/webapps/properties-0.0.1.war"
+    - name: Copy WAR to EC2
+      uses: appleboy/scp-action@v0.1.7
+      with: 
+        host: ${{ secrets.HOST }} 
+        username: ec2-user 
+        key: ${{ secrets.SSH_KEY }} 
+        source: "/target/properties.war" 
+        target: "/tmp" 
+      
+    - name: Deploy to Tomcat 
+      uses: appleboy/ssh-action@v1.0.3 
+      with: 
+        host: ${{ secrets.HOST }} 
+        username: ec2-user 
+        key: ${{ secrets.SSH_KEY }} 
+        script: | 
+          # Stop Tomcat 
+          sudo systemctl stop tomcat10 
+          # Remove old app (optional) 
+          sudo rm -rf /opt/tomcat10/webapps/ROOT* 
+          # Move new WAR 
+          sudo mv /tmp/properties.war /var/lib/tomcat10/webapps/ROOT.war
+          # Fix permissions (important)
+          sudo chown tomcat:tomcat /var/lib/tomcat10/webapps/properties.war 
+          # Start Tomcat 
+          sudo systemctl restart tomcat10
     
     
   

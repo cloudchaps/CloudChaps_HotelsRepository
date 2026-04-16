@@ -4,6 +4,9 @@ on:
   push:
     branches: [ development ]
 
+    paths:
+      - '01_Properties/*'
+
 jobs:
   build:
     runs-on: ubuntu-latest

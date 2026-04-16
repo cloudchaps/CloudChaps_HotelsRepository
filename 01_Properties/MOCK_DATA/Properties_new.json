@@ -1,0 +1,3029 @@
+[
+    {
+        "name": "Silene campanulata S. Watson",
+        "address": "59468 Annamark Place",
+        "type": "MOTEL",
+        "phone": "874-254-4458",
+        "roomsAvailable": 21,
+        "rating": 9,
+        "brand": "Lisinopril",
+        "description": "Variety pack of sticky notes in different colors and sizes.",
+        "amenities": [
+            {
+                "amenityName": "Pseudalopex gymnocercus",
+                "amenityType": "PARKING",
+                "amenityDescription": "Soft oatmeal cookies with maple and pecans.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.99
+            },
+            {
+                "amenityName": "Microcebus murinus",
+                "amenityType": "CONCIERGE",
+                "amenityDescription": "Love-themed molds for creating desserts and treats.",
+                "isIncluded": "TRUE",
+                "amenityCost": 10.99
+            },
+            {
+                "amenityName": "Myiarchus tuberculifer",
+                "amenityType": "SAUNA",
+                "amenityDescription": "Ready-to-eat salad with quinoa and kale, drizzled with vinaigrette.",
+                "isIncluded": "TRUE",
+                "amenityCost": 5.29
+            },
+            {
+                "amenityName": "Dendrocitta vagabunda",
+                "amenityType": "ROOM_SERVICE",
+                "amenityDescription": "Refreshing basil-infused lemonade for a cool drink.",
+                "isIncluded": "FALSE",
+                "amenityCost": 2.99
+            }
+        ]
+    },
+    {
+        "name": "Stellaria longifolia Muhl. ex Willd. var. atrata J.W. Moore",
+        "address": "4 Milwaukee Center",
+        "type": "RESORT",
+        "phone": "882-269-8458",
+        "roomsAvailable": 96,
+        "rating": 1,
+        "brand": "Chlorzoxazone",
+        "description": "Mesh drying rack for preserving herbs and flowers.",
+        "amenities": [
+            {
+                "amenityName": "Streptopelia decipiens",
+                "amenityType": "GYM",
+                "amenityDescription": "Precision digital scale for accurate cooking measurements.",
+                "isIncluded": "TRUE",
+                "amenityCost": 22.99
+            },
+            {
+                "amenityName": "Bucephala clangula",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish watering can for plants with easy pouring nozzle.",
+                "isIncluded": "TRUE",
+                "amenityCost": 19.99
+            },
+            {
+                "amenityName": "Bison bison",
+                "amenityType": "SPA",
+                "amenityDescription": "Versatile electric skillet for stir-frying and searing.",
+                "isIncluded": "FALSE",
+                "amenityCost": 49.99
+            },
+            {
+                "amenityName": "Prionace glauca",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Stylish bar stools with adjustable height and swivel features.",
+                "isIncluded": "TRUE",
+                "amenityCost": 149.99
+            },
+            {
+                "amenityName": "Loxodonta africana",
+                "amenityType": "LAUNDRY",
+                "amenityDescription": "Personal massager for muscle recovery.",
+                "isIncluded": "TRUE",
+                "amenityCost": 79.99
+            },
+            {
+                "amenityName": "Estrilda erythronotos",
+                "amenityType": "CHILDCARE",
+                "amenityDescription": "Crunchy seeds perfect for toppings and baking.",
+                "isIncluded": "FALSE",
+                "amenityCost": 1.99
+            },
+            {
+                "amenityName": "Coluber constrictor",
+                "amenityType": "AIRPORT_SHUTTLE",
+                "amenityDescription": "Gluten-free flour made from ground chickpeas, great for cooking.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.29
+            },
+            {
+                "amenityName": "Phoca vitulina",
+                "amenityType": "POOL",
+                "amenityDescription": "Golden brown potato tots, crispy on the outside and fluffy inside.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.69
+            },
+            {
+                "amenityName": "Macropus fuliginosus",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish and spacious case for makeup and beauty products.",
+                "isIncluded": "FALSE",
+                "amenityCost": 99.99
+            },
+            {
+                "amenityName": "Sylvicapra grimma",
+                "amenityType": "POOL",
+                "amenityDescription": "Frozen shrimp seasoned with chili and lime, perfect for quick dinners.",
+                "isIncluded": "FALSE",
+                "amenityCost": 8.99
+            },
+            {
+                "amenityName": "Phoenicopterus ruber",
+                "amenityType": "PARKING",
+                "amenityDescription": "Safe and easy-to-use nail clippers for pets.",
+                "isIncluded": "TRUE",
+                "amenityCost": 12.99
+            },
+            {
+                "amenityName": "Sarkidornis melanotos",
+                "amenityType": "SAUNA",
+                "amenityDescription": "Ready-to-eat salad with kale, lemon, and cheese.",
+                "isIncluded": "TRUE",
+                "amenityCost": 4.99
+            },
+            {
+                "amenityName": "Corvus albus",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Yoga socks designed to provide better grip and stability.",
+                "isIncluded": "FALSE",
+                "amenityCost": 12.99
+            }
+        ]
+    },
+    {
+        "name": "Solanum umbelliferum Eschsch. var. umbelliferum",
+        "address": "358 Hansons Park",
+        "type": "HOSTEL",
+        "phone": "477-184-5247",
+        "roomsAvailable": 97,
+        "rating": 5,
+        "brand": "Olanzapine",
+        "description": "Strategic board game for family game nights.",
+        "amenities": [
+            {
+                "amenityName": "Streptopelia decipiens",
+                "amenityType": "GYM",
+                "amenityDescription": "Precision digital scale for accurate cooking measurements.",
+                "isIncluded": "TRUE",
+                "amenityCost": 22.99
+            },
+            {
+                "amenityName": "Bucephala clangula",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish watering can for plants with easy pouring nozzle.",
+                "isIncluded": "TRUE",
+                "amenityCost": 19.99
+            },
+            {
+                "amenityName": "Bison bison",
+                "amenityType": "SPA",
+                "amenityDescription": "Versatile electric skillet for stir-frying and searing.",
+                "isIncluded": "FALSE",
+                "amenityCost": 49.99
+            },
+            {
+                "amenityName": "Prionace glauca",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Stylish bar stools with adjustable height and swivel features.",
+                "isIncluded": "TRUE",
+                "amenityCost": 149.99
+            },
+            {
+                "amenityName": "Loxodonta africana",
+                "amenityType": "LAUNDRY",
+                "amenityDescription": "Personal massager for muscle recovery.",
+                "isIncluded": "TRUE",
+                "amenityCost": 79.99
+            },
+            {
+                "amenityName": "Estrilda erythronotos",
+                "amenityType": "CHILDCARE",
+                "amenityDescription": "Crunchy seeds perfect for toppings and baking.",
+                "isIncluded": "FALSE",
+                "amenityCost": 1.99
+            },
+            {
+                "amenityName": "Coluber constrictor",
+                "amenityType": "AIRPORT_SHUTTLE",
+                "amenityDescription": "Gluten-free flour made from ground chickpeas, great for cooking.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.29
+            },
+            {
+                "amenityName": "Phoca vitulina",
+                "amenityType": "POOL",
+                "amenityDescription": "Golden brown potato tots, crispy on the outside and fluffy inside.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.69
+            },
+            {
+                "amenityName": "Macropus fuliginosus",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish and spacious case for makeup and beauty products.",
+                "isIncluded": "FALSE",
+                "amenityCost": 99.99
+            },
+            {
+                "amenityName": "Sylvicapra grimma",
+                "amenityType": "POOL",
+                "amenityDescription": "Frozen shrimp seasoned with chili and lime, perfect for quick dinners.",
+                "isIncluded": "FALSE",
+                "amenityCost": 8.99
+            },
+            {
+                "amenityName": "Phoenicopterus ruber",
+                "amenityType": "PARKING",
+                "amenityDescription": "Safe and easy-to-use nail clippers for pets.",
+                "isIncluded": "TRUE",
+                "amenityCost": 12.99
+            },
+            {
+                "amenityName": "Sarkidornis melanotos",
+                "amenityType": "SAUNA",
+                "amenityDescription": "Ready-to-eat salad with kale, lemon, and cheese.",
+                "isIncluded": "TRUE",
+                "amenityCost": 4.99
+            },
+            {
+                "amenityName": "Corvus albus",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Yoga socks designed to provide better grip and stability.",
+                "isIncluded": "FALSE",
+                "amenityCost": 12.99
+            }
+        ]
+    },
+    {
+        "name": "Xyris correlliorum E.L. Bridges & Orzell",
+        "address": "27 Prairieview Street",
+        "type": "VILLA",
+        "phone": "652-626-9950",
+        "roomsAvailable": 24,
+        "rating": 7,
+        "brand": "LEVAQUIN",
+        "description": "Automatic water fountain for pets with filtration.",
+        "amenities": [
+            {
+                "amenityName": "Streptopelia decipiens",
+                "amenityType": "GYM",
+                "amenityDescription": "Precision digital scale for accurate cooking measurements.",
+                "isIncluded": "TRUE",
+                "amenityCost": 22.99
+            },
+            {
+                "amenityName": "Bucephala clangula",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish watering can for plants with easy pouring nozzle.",
+                "isIncluded": "TRUE",
+                "amenityCost": 19.99
+            },
+            {
+                "amenityName": "Bison bison",
+                "amenityType": "SPA",
+                "amenityDescription": "Versatile electric skillet for stir-frying and searing.",
+                "isIncluded": "FALSE",
+                "amenityCost": 49.99
+            },
+            {
+                "amenityName": "Prionace glauca",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Stylish bar stools with adjustable height and swivel features.",
+                "isIncluded": "TRUE",
+                "amenityCost": 149.99
+            },
+            {
+                "amenityName": "Loxodonta africana",
+                "amenityType": "LAUNDRY",
+                "amenityDescription": "Personal massager for muscle recovery.",
+                "isIncluded": "TRUE",
+                "amenityCost": 79.99
+            },
+            {
+                "amenityName": "Estrilda erythronotos",
+                "amenityType": "CHILDCARE",
+                "amenityDescription": "Crunchy seeds perfect for toppings and baking.",
+                "isIncluded": "FALSE",
+                "amenityCost": 1.99
+            },
+            {
+                "amenityName": "Coluber constrictor",
+                "amenityType": "AIRPORT_SHUTTLE",
+                "amenityDescription": "Gluten-free flour made from ground chickpeas, great for cooking.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.29
+            },
+            {
+                "amenityName": "Phoca vitulina",
+                "amenityType": "POOL",
+                "amenityDescription": "Golden brown potato tots, crispy on the outside and fluffy inside.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.69
+            },
+            {
+                "amenityName": "Macropus fuliginosus",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish and spacious case for makeup and beauty products.",
+                "isIncluded": "FALSE",
+                "amenityCost": 99.99
+            },
+            {
+                "amenityName": "Sylvicapra grimma",
+                "amenityType": "POOL",
+                "amenityDescription": "Frozen shrimp seasoned with chili and lime, perfect for quick dinners.",
+                "isIncluded": "FALSE",
+                "amenityCost": 8.99
+            },
+            {
+                "amenityName": "Phoenicopterus ruber",
+                "amenityType": "PARKING",
+                "amenityDescription": "Safe and easy-to-use nail clippers for pets.",
+                "isIncluded": "TRUE",
+                "amenityCost": 12.99
+            },
+            {
+                "amenityName": "Sarkidornis melanotos",
+                "amenityType": "SAUNA",
+                "amenityDescription": "Ready-to-eat salad with kale, lemon, and cheese.",
+                "isIncluded": "TRUE",
+                "amenityCost": 4.99
+            },
+            {
+                "amenityName": "Corvus albus",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Yoga socks designed to provide better grip and stability.",
+                "isIncluded": "FALSE",
+                "amenityCost": 12.99
+            }
+        ]
+    },
+    {
+        "name": "Acacia mearnsii De Wild.",
+        "address": "0 Colorado Street",
+        "type": "MOTEL",
+        "phone": "931-656-5396",
+        "roomsAvailable": 97,
+        "rating": 5,
+        "brand": "Lorazepam",
+        "description": "Tender sweet corn kernels, ready to eat or add to dishes.",
+        "amenities": [
+            {
+                "amenityName": "Streptopelia decipiens",
+                "amenityType": "GYM",
+                "amenityDescription": "Precision digital scale for accurate cooking measurements.",
+                "isIncluded": "TRUE",
+                "amenityCost": 22.99
+            },
+            {
+                "amenityName": "Bucephala clangula",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish watering can for plants with easy pouring nozzle.",
+                "isIncluded": "TRUE",
+                "amenityCost": 19.99
+            },
+            {
+                "amenityName": "Bison bison",
+                "amenityType": "SPA",
+                "amenityDescription": "Versatile electric skillet for stir-frying and searing.",
+                "isIncluded": "FALSE",
+                "amenityCost": 49.99
+            },
+            {
+                "amenityName": "Prionace glauca",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Stylish bar stools with adjustable height and swivel features.",
+                "isIncluded": "TRUE",
+                "amenityCost": 149.99
+            },
+            {
+                "amenityName": "Loxodonta africana",
+                "amenityType": "LAUNDRY",
+                "amenityDescription": "Personal massager for muscle recovery.",
+                "isIncluded": "TRUE",
+                "amenityCost": 79.99
+            },
+            {
+                "amenityName": "Estrilda erythronotos",
+                "amenityType": "CHILDCARE",
+                "amenityDescription": "Crunchy seeds perfect for toppings and baking.",
+                "isIncluded": "FALSE",
+                "amenityCost": 1.99
+            },
+            {
+                "amenityName": "Coluber constrictor",
+                "amenityType": "AIRPORT_SHUTTLE",
+                "amenityDescription": "Gluten-free flour made from ground chickpeas, great for cooking.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.29
+            },
+            {
+                "amenityName": "Phoca vitulina",
+                "amenityType": "POOL",
+                "amenityDescription": "Golden brown potato tots, crispy on the outside and fluffy inside.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.69
+            },
+            {
+                "amenityName": "Macropus fuliginosus",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish and spacious case for makeup and beauty products.",
+                "isIncluded": "FALSE",
+                "amenityCost": 99.99
+            },
+            {
+                "amenityName": "Sylvicapra grimma",
+                "amenityType": "POOL",
+                "amenityDescription": "Frozen shrimp seasoned with chili and lime, perfect for quick dinners.",
+                "isIncluded": "FALSE",
+                "amenityCost": 8.99
+            },
+            {
+                "amenityName": "Phoenicopterus ruber",
+                "amenityType": "PARKING",
+                "amenityDescription": "Safe and easy-to-use nail clippers for pets.",
+                "isIncluded": "TRUE",
+                "amenityCost": 12.99
+            },
+            {
+                "amenityName": "Sarkidornis melanotos",
+                "amenityType": "SAUNA",
+                "amenityDescription": "Ready-to-eat salad with kale, lemon, and cheese.",
+                "isIncluded": "TRUE",
+                "amenityCost": 4.99
+            },
+            {
+                "amenityName": "Corvus albus",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Yoga socks designed to provide better grip and stability.",
+                "isIncluded": "FALSE",
+                "amenityCost": 12.99
+            }
+        ]
+    },
+    {
+        "name": "Scouleria aquatica Hook.",
+        "address": "4 Crescent Oaks Court",
+        "type": "HOTEL",
+        "phone": "161-887-7027",
+        "roomsAvailable": 78,
+        "rating": 1,
+        "brand": "SINGULAIR",
+        "description": "Handmade eco-friendly bowls made from real coconuts.",
+        "amenities": [
+            {
+                "amenityName": "Streptopelia decipiens",
+                "amenityType": "GYM",
+                "amenityDescription": "Precision digital scale for accurate cooking measurements.",
+                "isIncluded": "TRUE",
+                "amenityCost": 22.99
+            },
+            {
+                "amenityName": "Bucephala clangula",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish watering can for plants with easy pouring nozzle.",
+                "isIncluded": "TRUE",
+                "amenityCost": 19.99
+            },
+            {
+                "amenityName": "Bison bison",
+                "amenityType": "SPA",
+                "amenityDescription": "Versatile electric skillet for stir-frying and searing.",
+                "isIncluded": "FALSE",
+                "amenityCost": 49.99
+            },
+            {
+                "amenityName": "Prionace glauca",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Stylish bar stools with adjustable height and swivel features.",
+                "isIncluded": "TRUE",
+                "amenityCost": 149.99
+            },
+            {
+                "amenityName": "Loxodonta africana",
+                "amenityType": "LAUNDRY",
+                "amenityDescription": "Personal massager for muscle recovery.",
+                "isIncluded": "TRUE",
+                "amenityCost": 79.99
+            },
+            {
+                "amenityName": "Estrilda erythronotos",
+                "amenityType": "CHILDCARE",
+                "amenityDescription": "Crunchy seeds perfect for toppings and baking.",
+                "isIncluded": "FALSE",
+                "amenityCost": 1.99
+            },
+            {
+                "amenityName": "Coluber constrictor",
+                "amenityType": "AIRPORT_SHUTTLE",
+                "amenityDescription": "Gluten-free flour made from ground chickpeas, great for cooking.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.29
+            },
+            {
+                "amenityName": "Phoca vitulina",
+                "amenityType": "POOL",
+                "amenityDescription": "Golden brown potato tots, crispy on the outside and fluffy inside.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.69
+            },
+            {
+                "amenityName": "Macropus fuliginosus",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish and spacious case for makeup and beauty products.",
+                "isIncluded": "FALSE",
+                "amenityCost": 99.99
+            },
+            {
+                "amenityName": "Sylvicapra grimma",
+                "amenityType": "POOL",
+                "amenityDescription": "Frozen shrimp seasoned with chili and lime, perfect for quick dinners.",
+                "isIncluded": "FALSE",
+                "amenityCost": 8.99
+            },
+            {
+                "amenityName": "Phoenicopterus ruber",
+                "amenityType": "PARKING",
+                "amenityDescription": "Safe and easy-to-use nail clippers for pets.",
+                "isIncluded": "TRUE",
+                "amenityCost": 12.99
+            },
+            {
+                "amenityName": "Sarkidornis melanotos",
+                "amenityType": "SAUNA",
+                "amenityDescription": "Ready-to-eat salad with kale, lemon, and cheese.",
+                "isIncluded": "TRUE",
+                "amenityCost": 4.99
+            },
+            {
+                "amenityName": "Corvus albus",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Yoga socks designed to provide better grip and stability.",
+                "isIncluded": "FALSE",
+                "amenityCost": 12.99
+            }
+        ]
+    },
+    {
+        "name": "Astragalus kentrophyta A. Gray var. elatus S. Watson",
+        "address": "49331 Parkside Place",
+        "type": "MOTEL",
+        "phone": "221-782-1865",
+        "roomsAvailable": 90,
+        "rating": 3,
+        "brand": "Loratadine",
+        "description": "Durable jump rope with built-in counter for workouts.",
+        "amenities": [
+            {
+                "amenityName": "Streptopelia decipiens",
+                "amenityType": "GYM",
+                "amenityDescription": "Precision digital scale for accurate cooking measurements.",
+                "isIncluded": "TRUE",
+                "amenityCost": 22.99
+            },
+            {
+                "amenityName": "Bucephala clangula",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish watering can for plants with easy pouring nozzle.",
+                "isIncluded": "TRUE",
+                "amenityCost": 19.99
+            },
+            {
+                "amenityName": "Bison bison",
+                "amenityType": "SPA",
+                "amenityDescription": "Versatile electric skillet for stir-frying and searing.",
+                "isIncluded": "FALSE",
+                "amenityCost": 49.99
+            },
+            {
+                "amenityName": "Prionace glauca",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Stylish bar stools with adjustable height and swivel features.",
+                "isIncluded": "TRUE",
+                "amenityCost": 149.99
+            },
+            {
+                "amenityName": "Loxodonta africana",
+                "amenityType": "LAUNDRY",
+                "amenityDescription": "Personal massager for muscle recovery.",
+                "isIncluded": "TRUE",
+                "amenityCost": 79.99
+            },
+            {
+                "amenityName": "Estrilda erythronotos",
+                "amenityType": "CHILDCARE",
+                "amenityDescription": "Crunchy seeds perfect for toppings and baking.",
+                "isIncluded": "FALSE",
+                "amenityCost": 1.99
+            },
+            {
+                "amenityName": "Coluber constrictor",
+                "amenityType": "AIRPORT_SHUTTLE",
+                "amenityDescription": "Gluten-free flour made from ground chickpeas, great for cooking.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.29
+            },
+            {
+                "amenityName": "Phoca vitulina",
+                "amenityType": "POOL",
+                "amenityDescription": "Golden brown potato tots, crispy on the outside and fluffy inside.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.69
+            },
+            {
+                "amenityName": "Macropus fuliginosus",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish and spacious case for makeup and beauty products.",
+                "isIncluded": "FALSE",
+                "amenityCost": 99.99
+            },
+            {
+                "amenityName": "Sylvicapra grimma",
+                "amenityType": "POOL",
+                "amenityDescription": "Frozen shrimp seasoned with chili and lime, perfect for quick dinners.",
+                "isIncluded": "FALSE",
+                "amenityCost": 8.99
+            },
+            {
+                "amenityName": "Phoenicopterus ruber",
+                "amenityType": "PARKING",
+                "amenityDescription": "Safe and easy-to-use nail clippers for pets.",
+                "isIncluded": "TRUE",
+                "amenityCost": 12.99
+            },
+            {
+                "amenityName": "Sarkidornis melanotos",
+                "amenityType": "SAUNA",
+                "amenityDescription": "Ready-to-eat salad with kale, lemon, and cheese.",
+                "isIncluded": "TRUE",
+                "amenityCost": 4.99
+            },
+            {
+                "amenityName": "Corvus albus",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Yoga socks designed to provide better grip and stability.",
+                "isIncluded": "FALSE",
+                "amenityCost": 12.99
+            }
+        ]
+    },
+    {
+        "name": "Curcuma amada Roxb.",
+        "address": "2 Hanover Junction",
+        "type": "LODGE",
+        "phone": "881-987-1371",
+        "roomsAvailable": 50,
+        "rating": 1,
+        "brand": "BEING WELL BODY",
+        "description": "Water bottle that tracks your hydration levels.",
+        "amenities": [
+            {
+                "amenityName": "Streptopelia decipiens",
+                "amenityType": "GYM",
+                "amenityDescription": "Precision digital scale for accurate cooking measurements.",
+                "isIncluded": "TRUE",
+                "amenityCost": 22.99
+            },
+            {
+                "amenityName": "Bucephala clangula",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish watering can for plants with easy pouring nozzle.",
+                "isIncluded": "TRUE",
+                "amenityCost": 19.99
+            },
+            {
+                "amenityName": "Bison bison",
+                "amenityType": "SPA",
+                "amenityDescription": "Versatile electric skillet for stir-frying and searing.",
+                "isIncluded": "FALSE",
+                "amenityCost": 49.99
+            },
+            {
+                "amenityName": "Prionace glauca",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Stylish bar stools with adjustable height and swivel features.",
+                "isIncluded": "TRUE",
+                "amenityCost": 149.99
+            },
+            {
+                "amenityName": "Loxodonta africana",
+                "amenityType": "LAUNDRY",
+                "amenityDescription": "Personal massager for muscle recovery.",
+                "isIncluded": "TRUE",
+                "amenityCost": 79.99
+            },
+            {
+                "amenityName": "Estrilda erythronotos",
+                "amenityType": "CHILDCARE",
+                "amenityDescription": "Crunchy seeds perfect for toppings and baking.",
+                "isIncluded": "FALSE",
+                "amenityCost": 1.99
+            },
+            {
+                "amenityName": "Coluber constrictor",
+                "amenityType": "AIRPORT_SHUTTLE",
+                "amenityDescription": "Gluten-free flour made from ground chickpeas, great for cooking.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.29
+            },
+            {
+                "amenityName": "Phoca vitulina",
+                "amenityType": "POOL",
+                "amenityDescription": "Golden brown potato tots, crispy on the outside and fluffy inside.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.69
+            },
+            {
+                "amenityName": "Macropus fuliginosus",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish and spacious case for makeup and beauty products.",
+                "isIncluded": "FALSE",
+                "amenityCost": 99.99
+            },
+            {
+                "amenityName": "Sylvicapra grimma",
+                "amenityType": "POOL",
+                "amenityDescription": "Frozen shrimp seasoned with chili and lime, perfect for quick dinners.",
+                "isIncluded": "FALSE",
+                "amenityCost": 8.99
+            },
+            {
+                "amenityName": "Phoenicopterus ruber",
+                "amenityType": "PARKING",
+                "amenityDescription": "Safe and easy-to-use nail clippers for pets.",
+                "isIncluded": "TRUE",
+                "amenityCost": 12.99
+            },
+            {
+                "amenityName": "Sarkidornis melanotos",
+                "amenityType": "SAUNA",
+                "amenityDescription": "Ready-to-eat salad with kale, lemon, and cheese.",
+                "isIncluded": "TRUE",
+                "amenityCost": 4.99
+            },
+            {
+                "amenityName": "Corvus albus",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Yoga socks designed to provide better grip and stability.",
+                "isIncluded": "FALSE",
+                "amenityCost": 12.99
+            }
+        ]
+    },
+    {
+        "name": "Graphina columbina (Tuck.) M. Wirth & Hale",
+        "address": "7 Brentwood Place",
+        "type": "CABIN",
+        "phone": "115-614-0154",
+        "roomsAvailable": 79,
+        "rating": 3,
+        "brand": "Alprazolam",
+        "description": "Just add water for a quick pasta sauce.",
+        "amenities": [
+            {
+                "amenityName": "Streptopelia decipiens",
+                "amenityType": "GYM",
+                "amenityDescription": "Precision digital scale for accurate cooking measurements.",
+                "isIncluded": "TRUE",
+                "amenityCost": 22.99
+            },
+            {
+                "amenityName": "Bucephala clangula",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish watering can for plants with easy pouring nozzle.",
+                "isIncluded": "TRUE",
+                "amenityCost": 19.99
+            },
+            {
+                "amenityName": "Bison bison",
+                "amenityType": "SPA",
+                "amenityDescription": "Versatile electric skillet for stir-frying and searing.",
+                "isIncluded": "FALSE",
+                "amenityCost": 49.99
+            },
+            {
+                "amenityName": "Prionace glauca",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Stylish bar stools with adjustable height and swivel features.",
+                "isIncluded": "TRUE",
+                "amenityCost": 149.99
+            },
+            {
+                "amenityName": "Loxodonta africana",
+                "amenityType": "LAUNDRY",
+                "amenityDescription": "Personal massager for muscle recovery.",
+                "isIncluded": "TRUE",
+                "amenityCost": 79.99
+            },
+            {
+                "amenityName": "Estrilda erythronotos",
+                "amenityType": "CHILDCARE",
+                "amenityDescription": "Crunchy seeds perfect for toppings and baking.",
+                "isIncluded": "FALSE",
+                "amenityCost": 1.99
+            },
+            {
+                "amenityName": "Coluber constrictor",
+                "amenityType": "AIRPORT_SHUTTLE",
+                "amenityDescription": "Gluten-free flour made from ground chickpeas, great for cooking.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.29
+            },
+            {
+                "amenityName": "Phoca vitulina",
+                "amenityType": "POOL",
+                "amenityDescription": "Golden brown potato tots, crispy on the outside and fluffy inside.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.69
+            },
+            {
+                "amenityName": "Macropus fuliginosus",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish and spacious case for makeup and beauty products.",
+                "isIncluded": "FALSE",
+                "amenityCost": 99.99
+            },
+            {
+                "amenityName": "Sylvicapra grimma",
+                "amenityType": "POOL",
+                "amenityDescription": "Frozen shrimp seasoned with chili and lime, perfect for quick dinners.",
+                "isIncluded": "FALSE",
+                "amenityCost": 8.99
+            },
+            {
+                "amenityName": "Phoenicopterus ruber",
+                "amenityType": "PARKING",
+                "amenityDescription": "Safe and easy-to-use nail clippers for pets.",
+                "isIncluded": "TRUE",
+                "amenityCost": 12.99
+            },
+            {
+                "amenityName": "Sarkidornis melanotos",
+                "amenityType": "SAUNA",
+                "amenityDescription": "Ready-to-eat salad with kale, lemon, and cheese.",
+                "isIncluded": "TRUE",
+                "amenityCost": 4.99
+            },
+            {
+                "amenityName": "Corvus albus",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Yoga socks designed to provide better grip and stability.",
+                "isIncluded": "FALSE",
+                "amenityCost": 12.99
+            }
+        ]
+    },
+    {
+        "name": "Quercus ×comptoniae Sarg.",
+        "address": "46 Meadow Vale Center",
+        "type": "LODGE",
+        "phone": "270-681-9975",
+        "roomsAvailable": 40,
+        "rating": 5,
+        "brand": "Ceftriaxone",
+        "description": "Roasted almonds dipped in rich dark chocolate.",
+        "amenities": [
+            {
+                "amenityName": "Streptopelia decipiens",
+                "amenityType": "GYM",
+                "amenityDescription": "Precision digital scale for accurate cooking measurements.",
+                "isIncluded": "TRUE",
+                "amenityCost": 22.99
+            },
+            {
+                "amenityName": "Bucephala clangula",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish watering can for plants with easy pouring nozzle.",
+                "isIncluded": "TRUE",
+                "amenityCost": 19.99
+            },
+            {
+                "amenityName": "Bison bison",
+                "amenityType": "SPA",
+                "amenityDescription": "Versatile electric skillet for stir-frying and searing.",
+                "isIncluded": "FALSE",
+                "amenityCost": 49.99
+            },
+            {
+                "amenityName": "Prionace glauca",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Stylish bar stools with adjustable height and swivel features.",
+                "isIncluded": "TRUE",
+                "amenityCost": 149.99
+            },
+            {
+                "amenityName": "Loxodonta africana",
+                "amenityType": "LAUNDRY",
+                "amenityDescription": "Personal massager for muscle recovery.",
+                "isIncluded": "TRUE",
+                "amenityCost": 79.99
+            },
+            {
+                "amenityName": "Estrilda erythronotos",
+                "amenityType": "CHILDCARE",
+                "amenityDescription": "Crunchy seeds perfect for toppings and baking.",
+                "isIncluded": "FALSE",
+                "amenityCost": 1.99
+            },
+            {
+                "amenityName": "Coluber constrictor",
+                "amenityType": "AIRPORT_SHUTTLE",
+                "amenityDescription": "Gluten-free flour made from ground chickpeas, great for cooking.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.29
+            },
+            {
+                "amenityName": "Phoca vitulina",
+                "amenityType": "POOL",
+                "amenityDescription": "Golden brown potato tots, crispy on the outside and fluffy inside.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.69
+            },
+            {
+                "amenityName": "Macropus fuliginosus",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish and spacious case for makeup and beauty products.",
+                "isIncluded": "FALSE",
+                "amenityCost": 99.99
+            },
+            {
+                "amenityName": "Sylvicapra grimma",
+                "amenityType": "POOL",
+                "amenityDescription": "Frozen shrimp seasoned with chili and lime, perfect for quick dinners.",
+                "isIncluded": "FALSE",
+                "amenityCost": 8.99
+            },
+            {
+                "amenityName": "Phoenicopterus ruber",
+                "amenityType": "PARKING",
+                "amenityDescription": "Safe and easy-to-use nail clippers for pets.",
+                "isIncluded": "TRUE",
+                "amenityCost": 12.99
+            },
+            {
+                "amenityName": "Sarkidornis melanotos",
+                "amenityType": "SAUNA",
+                "amenityDescription": "Ready-to-eat salad with kale, lemon, and cheese.",
+                "isIncluded": "TRUE",
+                "amenityCost": 4.99
+            },
+            {
+                "amenityName": "Corvus albus",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Yoga socks designed to provide better grip and stability.",
+                "isIncluded": "FALSE",
+                "amenityCost": 12.99
+            }
+        ]
+    },
+    {
+        "name": "Prunus domestica L. var. domestica",
+        "address": "909 Dayton Street",
+        "type": "LODGE",
+        "phone": "323-693-7420",
+        "roomsAvailable": 2,
+        "rating": 2,
+        "brand": "SUGAR FREE LEMON MINT HERB THROAT DROPS",
+        "description": "Soft glow night light for children's rooms or bedside.",
+        "amenities": [
+            {
+                "amenityName": "Streptopelia decipiens",
+                "amenityType": "GYM",
+                "amenityDescription": "Precision digital scale for accurate cooking measurements.",
+                "isIncluded": "TRUE",
+                "amenityCost": 22.99
+            },
+            {
+                "amenityName": "Bucephala clangula",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish watering can for plants with easy pouring nozzle.",
+                "isIncluded": "TRUE",
+                "amenityCost": 19.99
+            },
+            {
+                "amenityName": "Bison bison",
+                "amenityType": "SPA",
+                "amenityDescription": "Versatile electric skillet for stir-frying and searing.",
+                "isIncluded": "FALSE",
+                "amenityCost": 49.99
+            },
+            {
+                "amenityName": "Prionace glauca",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Stylish bar stools with adjustable height and swivel features.",
+                "isIncluded": "TRUE",
+                "amenityCost": 149.99
+            },
+            {
+                "amenityName": "Loxodonta africana",
+                "amenityType": "LAUNDRY",
+                "amenityDescription": "Personal massager for muscle recovery.",
+                "isIncluded": "TRUE",
+                "amenityCost": 79.99
+            },
+            {
+                "amenityName": "Estrilda erythronotos",
+                "amenityType": "CHILDCARE",
+                "amenityDescription": "Crunchy seeds perfect for toppings and baking.",
+                "isIncluded": "FALSE",
+                "amenityCost": 1.99
+            },
+            {
+                "amenityName": "Coluber constrictor",
+                "amenityType": "AIRPORT_SHUTTLE",
+                "amenityDescription": "Gluten-free flour made from ground chickpeas, great for cooking.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.29
+            },
+            {
+                "amenityName": "Phoca vitulina",
+                "amenityType": "POOL",
+                "amenityDescription": "Golden brown potato tots, crispy on the outside and fluffy inside.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.69
+            },
+            {
+                "amenityName": "Macropus fuliginosus",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish and spacious case for makeup and beauty products.",
+                "isIncluded": "FALSE",
+                "amenityCost": 99.99
+            },
+            {
+                "amenityName": "Sylvicapra grimma",
+                "amenityType": "POOL",
+                "amenityDescription": "Frozen shrimp seasoned with chili and lime, perfect for quick dinners.",
+                "isIncluded": "FALSE",
+                "amenityCost": 8.99
+            },
+            {
+                "amenityName": "Phoenicopterus ruber",
+                "amenityType": "PARKING",
+                "amenityDescription": "Safe and easy-to-use nail clippers for pets.",
+                "isIncluded": "TRUE",
+                "amenityCost": 12.99
+            },
+            {
+                "amenityName": "Sarkidornis melanotos",
+                "amenityType": "SAUNA",
+                "amenityDescription": "Ready-to-eat salad with kale, lemon, and cheese.",
+                "isIncluded": "TRUE",
+                "amenityCost": 4.99
+            },
+            {
+                "amenityName": "Corvus albus",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Yoga socks designed to provide better grip and stability.",
+                "isIncluded": "FALSE",
+                "amenityCost": 12.99
+            }
+        ]
+    },
+    {
+        "name": "Chaerophyllum procumbens (L.) Crantz var. procumbens",
+        "address": "8 Rockefeller Way",
+        "type": "LODGE",
+        "phone": "639-365-2493",
+        "roomsAvailable": 2,
+        "rating": 1,
+        "brand": "Dicyclomine Hydrochloride",
+        "description": "Frozen pizza rolls stuffed with spinach and cheese, perfect for snacking.",
+        "amenities": [
+            {
+                "amenityName": "Streptopelia decipiens",
+                "amenityType": "GYM",
+                "amenityDescription": "Precision digital scale for accurate cooking measurements.",
+                "isIncluded": "TRUE",
+                "amenityCost": 22.99
+            },
+            {
+                "amenityName": "Bucephala clangula",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish watering can for plants with easy pouring nozzle.",
+                "isIncluded": "TRUE",
+                "amenityCost": 19.99
+            },
+            {
+                "amenityName": "Bison bison",
+                "amenityType": "SPA",
+                "amenityDescription": "Versatile electric skillet for stir-frying and searing.",
+                "isIncluded": "FALSE",
+                "amenityCost": 49.99
+            },
+            {
+                "amenityName": "Prionace glauca",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Stylish bar stools with adjustable height and swivel features.",
+                "isIncluded": "TRUE",
+                "amenityCost": 149.99
+            },
+            {
+                "amenityName": "Loxodonta africana",
+                "amenityType": "LAUNDRY",
+                "amenityDescription": "Personal massager for muscle recovery.",
+                "isIncluded": "TRUE",
+                "amenityCost": 79.99
+            },
+            {
+                "amenityName": "Estrilda erythronotos",
+                "amenityType": "CHILDCARE",
+                "amenityDescription": "Crunchy seeds perfect for toppings and baking.",
+                "isIncluded": "FALSE",
+                "amenityCost": 1.99
+            },
+            {
+                "amenityName": "Coluber constrictor",
+                "amenityType": "AIRPORT_SHUTTLE",
+                "amenityDescription": "Gluten-free flour made from ground chickpeas, great for cooking.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.29
+            },
+            {
+                "amenityName": "Phoca vitulina",
+                "amenityType": "POOL",
+                "amenityDescription": "Golden brown potato tots, crispy on the outside and fluffy inside.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.69
+            },
+            {
+                "amenityName": "Macropus fuliginosus",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish and spacious case for makeup and beauty products.",
+                "isIncluded": "FALSE",
+                "amenityCost": 99.99
+            },
+            {
+                "amenityName": "Sylvicapra grimma",
+                "amenityType": "POOL",
+                "amenityDescription": "Frozen shrimp seasoned with chili and lime, perfect for quick dinners.",
+                "isIncluded": "FALSE",
+                "amenityCost": 8.99
+            },
+            {
+                "amenityName": "Phoenicopterus ruber",
+                "amenityType": "PARKING",
+                "amenityDescription": "Safe and easy-to-use nail clippers for pets.",
+                "isIncluded": "TRUE",
+                "amenityCost": 12.99
+            },
+            {
+                "amenityName": "Sarkidornis melanotos",
+                "amenityType": "SAUNA",
+                "amenityDescription": "Ready-to-eat salad with kale, lemon, and cheese.",
+                "isIncluded": "TRUE",
+                "amenityCost": 4.99
+            },
+            {
+                "amenityName": "Corvus albus",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Yoga socks designed to provide better grip and stability.",
+                "isIncluded": "FALSE",
+                "amenityCost": 12.99
+            }
+        ]
+    },
+    {
+        "name": "Lonicera albiflora Torr. & A. Gray",
+        "address": "8 Tennessee Park",
+        "type": "CABIN",
+        "phone": "843-421-1741",
+        "roomsAvailable": 8,
+        "rating": 2,
+        "brand": "ACNE SOLUTIONS OIL CONTROL CLEANSING MASK",
+        "description": "Golden crispy chicken tenders coated with honey mustard flavor.",
+        "amenities": [
+            {
+                "amenityName": "Streptopelia decipiens",
+                "amenityType": "GYM",
+                "amenityDescription": "Precision digital scale for accurate cooking measurements.",
+                "isIncluded": "TRUE",
+                "amenityCost": 22.99
+            },
+            {
+                "amenityName": "Bucephala clangula",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish watering can for plants with easy pouring nozzle.",
+                "isIncluded": "TRUE",
+                "amenityCost": 19.99
+            },
+            {
+                "amenityName": "Bison bison",
+                "amenityType": "SPA",
+                "amenityDescription": "Versatile electric skillet for stir-frying and searing.",
+                "isIncluded": "FALSE",
+                "amenityCost": 49.99
+            },
+            {
+                "amenityName": "Prionace glauca",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Stylish bar stools with adjustable height and swivel features.",
+                "isIncluded": "TRUE",
+                "amenityCost": 149.99
+            },
+            {
+                "amenityName": "Loxodonta africana",
+                "amenityType": "LAUNDRY",
+                "amenityDescription": "Personal massager for muscle recovery.",
+                "isIncluded": "TRUE",
+                "amenityCost": 79.99
+            },
+            {
+                "amenityName": "Estrilda erythronotos",
+                "amenityType": "CHILDCARE",
+                "amenityDescription": "Crunchy seeds perfect for toppings and baking.",
+                "isIncluded": "FALSE",
+                "amenityCost": 1.99
+            },
+            {
+                "amenityName": "Coluber constrictor",
+                "amenityType": "AIRPORT_SHUTTLE",
+                "amenityDescription": "Gluten-free flour made from ground chickpeas, great for cooking.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.29
+            },
+            {
+                "amenityName": "Phoca vitulina",
+                "amenityType": "POOL",
+                "amenityDescription": "Golden brown potato tots, crispy on the outside and fluffy inside.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.69
+            },
+            {
+                "amenityName": "Macropus fuliginosus",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish and spacious case for makeup and beauty products.",
+                "isIncluded": "FALSE",
+                "amenityCost": 99.99
+            },
+            {
+                "amenityName": "Sylvicapra grimma",
+                "amenityType": "POOL",
+                "amenityDescription": "Frozen shrimp seasoned with chili and lime, perfect for quick dinners.",
+                "isIncluded": "FALSE",
+                "amenityCost": 8.99
+            },
+            {
+                "amenityName": "Phoenicopterus ruber",
+                "amenityType": "PARKING",
+                "amenityDescription": "Safe and easy-to-use nail clippers for pets.",
+                "isIncluded": "TRUE",
+                "amenityCost": 12.99
+            },
+            {
+                "amenityName": "Sarkidornis melanotos",
+                "amenityType": "SAUNA",
+                "amenityDescription": "Ready-to-eat salad with kale, lemon, and cheese.",
+                "isIncluded": "TRUE",
+                "amenityCost": 4.99
+            },
+            {
+                "amenityName": "Corvus albus",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Yoga socks designed to provide better grip and stability.",
+                "isIncluded": "FALSE",
+                "amenityCost": 12.99
+            }
+        ]
+    },
+    {
+        "name": "Torenia L.",
+        "address": "83396 Mandrake Avenue",
+        "type": "CABIN",
+        "phone": "421-568-3311",
+        "roomsAvailable": 43,
+        "rating": 4,
+        "brand": "Nasal Decongestant",
+        "description": "A hearty vegetable curry for a quick and satisfying meal.",
+        "amenities": [
+            {
+                "amenityName": "Streptopelia decipiens",
+                "amenityType": "GYM",
+                "amenityDescription": "Precision digital scale for accurate cooking measurements.",
+                "isIncluded": "TRUE",
+                "amenityCost": 22.99
+            },
+            {
+                "amenityName": "Bucephala clangula",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish watering can for plants with easy pouring nozzle.",
+                "isIncluded": "TRUE",
+                "amenityCost": 19.99
+            },
+            {
+                "amenityName": "Bison bison",
+                "amenityType": "SPA",
+                "amenityDescription": "Versatile electric skillet for stir-frying and searing.",
+                "isIncluded": "FALSE",
+                "amenityCost": 49.99
+            },
+            {
+                "amenityName": "Prionace glauca",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Stylish bar stools with adjustable height and swivel features.",
+                "isIncluded": "TRUE",
+                "amenityCost": 149.99
+            },
+            {
+                "amenityName": "Loxodonta africana",
+                "amenityType": "LAUNDRY",
+                "amenityDescription": "Personal massager for muscle recovery.",
+                "isIncluded": "TRUE",
+                "amenityCost": 79.99
+            },
+            {
+                "amenityName": "Estrilda erythronotos",
+                "amenityType": "CHILDCARE",
+                "amenityDescription": "Crunchy seeds perfect for toppings and baking.",
+                "isIncluded": "FALSE",
+                "amenityCost": 1.99
+            },
+            {
+                "amenityName": "Coluber constrictor",
+                "amenityType": "AIRPORT_SHUTTLE",
+                "amenityDescription": "Gluten-free flour made from ground chickpeas, great for cooking.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.29
+            },
+            {
+                "amenityName": "Phoca vitulina",
+                "amenityType": "POOL",
+                "amenityDescription": "Golden brown potato tots, crispy on the outside and fluffy inside.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.69
+            },
+            {
+                "amenityName": "Macropus fuliginosus",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish and spacious case for makeup and beauty products.",
+                "isIncluded": "FALSE",
+                "amenityCost": 99.99
+            },
+            {
+                "amenityName": "Sylvicapra grimma",
+                "amenityType": "POOL",
+                "amenityDescription": "Frozen shrimp seasoned with chili and lime, perfect for quick dinners.",
+                "isIncluded": "FALSE",
+                "amenityCost": 8.99
+            },
+            {
+                "amenityName": "Phoenicopterus ruber",
+                "amenityType": "PARKING",
+                "amenityDescription": "Safe and easy-to-use nail clippers for pets.",
+                "isIncluded": "TRUE",
+                "amenityCost": 12.99
+            },
+            {
+                "amenityName": "Sarkidornis melanotos",
+                "amenityType": "SAUNA",
+                "amenityDescription": "Ready-to-eat salad with kale, lemon, and cheese.",
+                "isIncluded": "TRUE",
+                "amenityCost": 4.99
+            },
+            {
+                "amenityName": "Corvus albus",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Yoga socks designed to provide better grip and stability.",
+                "isIncluded": "FALSE",
+                "amenityCost": 12.99
+            }
+        ]
+    },
+    {
+        "name": "Graphina acharii (Fée) Müll. Arg.",
+        "address": "718 Bunker Hill Parkway",
+        "type": "LODGE",
+        "phone": "752-362-9188",
+        "roomsAvailable": 91,
+        "rating": 7,
+        "brand": "Caffeic Acid",
+        "description": "Lightweight cover-up perfect for the beach, with a breezy design.",
+        "amenities": [
+            {
+                "amenityName": "Streptopelia decipiens",
+                "amenityType": "GYM",
+                "amenityDescription": "Precision digital scale for accurate cooking measurements.",
+                "isIncluded": "TRUE",
+                "amenityCost": 22.99
+            },
+            {
+                "amenityName": "Bucephala clangula",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish watering can for plants with easy pouring nozzle.",
+                "isIncluded": "TRUE",
+                "amenityCost": 19.99
+            },
+            {
+                "amenityName": "Bison bison",
+                "amenityType": "SPA",
+                "amenityDescription": "Versatile electric skillet for stir-frying and searing.",
+                "isIncluded": "FALSE",
+                "amenityCost": 49.99
+            },
+            {
+                "amenityName": "Prionace glauca",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Stylish bar stools with adjustable height and swivel features.",
+                "isIncluded": "TRUE",
+                "amenityCost": 149.99
+            },
+            {
+                "amenityName": "Loxodonta africana",
+                "amenityType": "LAUNDRY",
+                "amenityDescription": "Personal massager for muscle recovery.",
+                "isIncluded": "TRUE",
+                "amenityCost": 79.99
+            },
+            {
+                "amenityName": "Estrilda erythronotos",
+                "amenityType": "CHILDCARE",
+                "amenityDescription": "Crunchy seeds perfect for toppings and baking.",
+                "isIncluded": "FALSE",
+                "amenityCost": 1.99
+            },
+            {
+                "amenityName": "Coluber constrictor",
+                "amenityType": "AIRPORT_SHUTTLE",
+                "amenityDescription": "Gluten-free flour made from ground chickpeas, great for cooking.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.29
+            },
+            {
+                "amenityName": "Phoca vitulina",
+                "amenityType": "POOL",
+                "amenityDescription": "Golden brown potato tots, crispy on the outside and fluffy inside.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.69
+            },
+            {
+                "amenityName": "Macropus fuliginosus",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish and spacious case for makeup and beauty products.",
+                "isIncluded": "FALSE",
+                "amenityCost": 99.99
+            },
+            {
+                "amenityName": "Sylvicapra grimma",
+                "amenityType": "POOL",
+                "amenityDescription": "Frozen shrimp seasoned with chili and lime, perfect for quick dinners.",
+                "isIncluded": "FALSE",
+                "amenityCost": 8.99
+            },
+            {
+                "amenityName": "Phoenicopterus ruber",
+                "amenityType": "PARKING",
+                "amenityDescription": "Safe and easy-to-use nail clippers for pets.",
+                "isIncluded": "TRUE",
+                "amenityCost": 12.99
+            },
+            {
+                "amenityName": "Sarkidornis melanotos",
+                "amenityType": "SAUNA",
+                "amenityDescription": "Ready-to-eat salad with kale, lemon, and cheese.",
+                "isIncluded": "TRUE",
+                "amenityCost": 4.99
+            },
+            {
+                "amenityName": "Corvus albus",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Yoga socks designed to provide better grip and stability.",
+                "isIncluded": "FALSE",
+                "amenityCost": 12.99
+            }
+        ]
+    },
+    {
+        "name": "Quercus acutissima Carruthers",
+        "address": "86 Aberg Point",
+        "type": "APARTMENT",
+        "phone": "417-659-2067",
+        "roomsAvailable": 65,
+        "rating": 1,
+        "brand": "ANTI-BLEMISH MATTE PRIMER",
+        "description": "Compact hair dryer with multiple heat settings.",
+        "amenities": [
+            {
+                "amenityName": "Streptopelia decipiens",
+                "amenityType": "GYM",
+                "amenityDescription": "Precision digital scale for accurate cooking measurements.",
+                "isIncluded": "TRUE",
+                "amenityCost": 22.99
+            },
+            {
+                "amenityName": "Bucephala clangula",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish watering can for plants with easy pouring nozzle.",
+                "isIncluded": "TRUE",
+                "amenityCost": 19.99
+            },
+            {
+                "amenityName": "Bison bison",
+                "amenityType": "SPA",
+                "amenityDescription": "Versatile electric skillet for stir-frying and searing.",
+                "isIncluded": "FALSE",
+                "amenityCost": 49.99
+            },
+            {
+                "amenityName": "Prionace glauca",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Stylish bar stools with adjustable height and swivel features.",
+                "isIncluded": "TRUE",
+                "amenityCost": 149.99
+            },
+            {
+                "amenityName": "Loxodonta africana",
+                "amenityType": "LAUNDRY",
+                "amenityDescription": "Personal massager for muscle recovery.",
+                "isIncluded": "TRUE",
+                "amenityCost": 79.99
+            },
+            {
+                "amenityName": "Estrilda erythronotos",
+                "amenityType": "CHILDCARE",
+                "amenityDescription": "Crunchy seeds perfect for toppings and baking.",
+                "isIncluded": "FALSE",
+                "amenityCost": 1.99
+            },
+            {
+                "amenityName": "Coluber constrictor",
+                "amenityType": "AIRPORT_SHUTTLE",
+                "amenityDescription": "Gluten-free flour made from ground chickpeas, great for cooking.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.29
+            },
+            {
+                "amenityName": "Phoca vitulina",
+                "amenityType": "POOL",
+                "amenityDescription": "Golden brown potato tots, crispy on the outside and fluffy inside.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.69
+            },
+            {
+                "amenityName": "Macropus fuliginosus",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish and spacious case for makeup and beauty products.",
+                "isIncluded": "FALSE",
+                "amenityCost": 99.99
+            },
+            {
+                "amenityName": "Sylvicapra grimma",
+                "amenityType": "POOL",
+                "amenityDescription": "Frozen shrimp seasoned with chili and lime, perfect for quick dinners.",
+                "isIncluded": "FALSE",
+                "amenityCost": 8.99
+            },
+            {
+                "amenityName": "Phoenicopterus ruber",
+                "amenityType": "PARKING",
+                "amenityDescription": "Safe and easy-to-use nail clippers for pets.",
+                "isIncluded": "TRUE",
+                "amenityCost": 12.99
+            },
+            {
+                "amenityName": "Sarkidornis melanotos",
+                "amenityType": "SAUNA",
+                "amenityDescription": "Ready-to-eat salad with kale, lemon, and cheese.",
+                "isIncluded": "TRUE",
+                "amenityCost": 4.99
+            },
+            {
+                "amenityName": "Corvus albus",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Yoga socks designed to provide better grip and stability.",
+                "isIncluded": "FALSE",
+                "amenityCost": 12.99
+            }
+        ]
+    },
+    {
+        "name": "Eriogonum wrightii Torr. ex Benth. var. membranaceum S. Stokes ex Jeps.",
+        "address": "6209 Northport Street",
+        "type": "CABIN",
+        "phone": "462-245-3949",
+        "roomsAvailable": 46,
+        "rating": 6,
+        "brand": "Hibiclens",
+        "description": "Sleek and protective sleeve for laptops and tablets.",
+        "amenities": [
+            {
+                "amenityName": "Streptopelia decipiens",
+                "amenityType": "GYM",
+                "amenityDescription": "Precision digital scale for accurate cooking measurements.",
+                "isIncluded": "TRUE",
+                "amenityCost": 22.99
+            },
+            {
+                "amenityName": "Bucephala clangula",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish watering can for plants with easy pouring nozzle.",
+                "isIncluded": "TRUE",
+                "amenityCost": 19.99
+            },
+            {
+                "amenityName": "Bison bison",
+                "amenityType": "SPA",
+                "amenityDescription": "Versatile electric skillet for stir-frying and searing.",
+                "isIncluded": "FALSE",
+                "amenityCost": 49.99
+            },
+            {
+                "amenityName": "Prionace glauca",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Stylish bar stools with adjustable height and swivel features.",
+                "isIncluded": "TRUE",
+                "amenityCost": 149.99
+            },
+            {
+                "amenityName": "Loxodonta africana",
+                "amenityType": "LAUNDRY",
+                "amenityDescription": "Personal massager for muscle recovery.",
+                "isIncluded": "TRUE",
+                "amenityCost": 79.99
+            },
+            {
+                "amenityName": "Estrilda erythronotos",
+                "amenityType": "CHILDCARE",
+                "amenityDescription": "Crunchy seeds perfect for toppings and baking.",
+                "isIncluded": "FALSE",
+                "amenityCost": 1.99
+            },
+            {
+                "amenityName": "Coluber constrictor",
+                "amenityType": "AIRPORT_SHUTTLE",
+                "amenityDescription": "Gluten-free flour made from ground chickpeas, great for cooking.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.29
+            },
+            {
+                "amenityName": "Phoca vitulina",
+                "amenityType": "POOL",
+                "amenityDescription": "Golden brown potato tots, crispy on the outside and fluffy inside.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.69
+            },
+            {
+                "amenityName": "Macropus fuliginosus",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish and spacious case for makeup and beauty products.",
+                "isIncluded": "FALSE",
+                "amenityCost": 99.99
+            },
+            {
+                "amenityName": "Sylvicapra grimma",
+                "amenityType": "POOL",
+                "amenityDescription": "Frozen shrimp seasoned with chili and lime, perfect for quick dinners.",
+                "isIncluded": "FALSE",
+                "amenityCost": 8.99
+            },
+            {
+                "amenityName": "Phoenicopterus ruber",
+                "amenityType": "PARKING",
+                "amenityDescription": "Safe and easy-to-use nail clippers for pets.",
+                "isIncluded": "TRUE",
+                "amenityCost": 12.99
+            },
+            {
+                "amenityName": "Sarkidornis melanotos",
+                "amenityType": "SAUNA",
+                "amenityDescription": "Ready-to-eat salad with kale, lemon, and cheese.",
+                "isIncluded": "TRUE",
+                "amenityCost": 4.99
+            },
+            {
+                "amenityName": "Corvus albus",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Yoga socks designed to provide better grip and stability.",
+                "isIncluded": "FALSE",
+                "amenityCost": 12.99
+            }
+        ]
+    },
+    {
+        "name": "Aeonium haworthii Webb & Bethel.",
+        "address": "61 Maple Road",
+        "type": "HOTEL",
+        "phone": "203-916-4969",
+        "roomsAvailable": 93,
+        "rating": 2,
+        "brand": "Givenchy Fluid Foundation Airy-light Mat Radiance SPF 20 Tint 2",
+        "description": "Juicy and tender beef sirloin steak, grass-fed.",
+        "amenities": [
+            {
+                "amenityName": "Streptopelia decipiens",
+                "amenityType": "GYM",
+                "amenityDescription": "Precision digital scale for accurate cooking measurements.",
+                "isIncluded": "TRUE",
+                "amenityCost": 22.99
+            },
+            {
+                "amenityName": "Bucephala clangula",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish watering can for plants with easy pouring nozzle.",
+                "isIncluded": "TRUE",
+                "amenityCost": 19.99
+            },
+            {
+                "amenityName": "Bison bison",
+                "amenityType": "SPA",
+                "amenityDescription": "Versatile electric skillet for stir-frying and searing.",
+                "isIncluded": "FALSE",
+                "amenityCost": 49.99
+            },
+            {
+                "amenityName": "Prionace glauca",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Stylish bar stools with adjustable height and swivel features.",
+                "isIncluded": "TRUE",
+                "amenityCost": 149.99
+            },
+            {
+                "amenityName": "Loxodonta africana",
+                "amenityType": "LAUNDRY",
+                "amenityDescription": "Personal massager for muscle recovery.",
+                "isIncluded": "TRUE",
+                "amenityCost": 79.99
+            },
+            {
+                "amenityName": "Estrilda erythronotos",
+                "amenityType": "CHILDCARE",
+                "amenityDescription": "Crunchy seeds perfect for toppings and baking.",
+                "isIncluded": "FALSE",
+                "amenityCost": 1.99
+            },
+            {
+                "amenityName": "Coluber constrictor",
+                "amenityType": "AIRPORT_SHUTTLE",
+                "amenityDescription": "Gluten-free flour made from ground chickpeas, great for cooking.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.29
+            },
+            {
+                "amenityName": "Phoca vitulina",
+                "amenityType": "POOL",
+                "amenityDescription": "Golden brown potato tots, crispy on the outside and fluffy inside.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.69
+            },
+            {
+                "amenityName": "Macropus fuliginosus",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish and spacious case for makeup and beauty products.",
+                "isIncluded": "FALSE",
+                "amenityCost": 99.99
+            },
+            {
+                "amenityName": "Sylvicapra grimma",
+                "amenityType": "POOL",
+                "amenityDescription": "Frozen shrimp seasoned with chili and lime, perfect for quick dinners.",
+                "isIncluded": "FALSE",
+                "amenityCost": 8.99
+            },
+            {
+                "amenityName": "Phoenicopterus ruber",
+                "amenityType": "PARKING",
+                "amenityDescription": "Safe and easy-to-use nail clippers for pets.",
+                "isIncluded": "TRUE",
+                "amenityCost": 12.99
+            },
+            {
+                "amenityName": "Sarkidornis melanotos",
+                "amenityType": "SAUNA",
+                "amenityDescription": "Ready-to-eat salad with kale, lemon, and cheese.",
+                "isIncluded": "TRUE",
+                "amenityCost": 4.99
+            },
+            {
+                "amenityName": "Corvus albus",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Yoga socks designed to provide better grip and stability.",
+                "isIncluded": "FALSE",
+                "amenityCost": 12.99
+            }
+        ]
+    },
+    {
+        "name": "Antheropeas Rydb.",
+        "address": "41 Banding Court",
+        "type": "MOTEL",
+        "phone": "649-820-9793",
+        "roomsAvailable": 78,
+        "rating": 3,
+        "brand": "Desferal",
+        "description": "Soft glow night light for children's rooms or bedside.",
+        "amenities": [
+            {
+                "amenityName": "Streptopelia decipiens",
+                "amenityType": "GYM",
+                "amenityDescription": "Precision digital scale for accurate cooking measurements.",
+                "isIncluded": "TRUE",
+                "amenityCost": 22.99
+            },
+            {
+                "amenityName": "Bucephala clangula",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish watering can for plants with easy pouring nozzle.",
+                "isIncluded": "TRUE",
+                "amenityCost": 19.99
+            },
+            {
+                "amenityName": "Bison bison",
+                "amenityType": "SPA",
+                "amenityDescription": "Versatile electric skillet for stir-frying and searing.",
+                "isIncluded": "FALSE",
+                "amenityCost": 49.99
+            },
+            {
+                "amenityName": "Prionace glauca",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Stylish bar stools with adjustable height and swivel features.",
+                "isIncluded": "TRUE",
+                "amenityCost": 149.99
+            },
+            {
+                "amenityName": "Loxodonta africana",
+                "amenityType": "LAUNDRY",
+                "amenityDescription": "Personal massager for muscle recovery.",
+                "isIncluded": "TRUE",
+                "amenityCost": 79.99
+            },
+            {
+                "amenityName": "Estrilda erythronotos",
+                "amenityType": "CHILDCARE",
+                "amenityDescription": "Crunchy seeds perfect for toppings and baking.",
+                "isIncluded": "FALSE",
+                "amenityCost": 1.99
+            },
+            {
+                "amenityName": "Coluber constrictor",
+                "amenityType": "AIRPORT_SHUTTLE",
+                "amenityDescription": "Gluten-free flour made from ground chickpeas, great for cooking.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.29
+            },
+            {
+                "amenityName": "Phoca vitulina",
+                "amenityType": "POOL",
+                "amenityDescription": "Golden brown potato tots, crispy on the outside and fluffy inside.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.69
+            },
+            {
+                "amenityName": "Macropus fuliginosus",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish and spacious case for makeup and beauty products.",
+                "isIncluded": "FALSE",
+                "amenityCost": 99.99
+            },
+            {
+                "amenityName": "Sylvicapra grimma",
+                "amenityType": "POOL",
+                "amenityDescription": "Frozen shrimp seasoned with chili and lime, perfect for quick dinners.",
+                "isIncluded": "FALSE",
+                "amenityCost": 8.99
+            },
+            {
+                "amenityName": "Phoenicopterus ruber",
+                "amenityType": "PARKING",
+                "amenityDescription": "Safe and easy-to-use nail clippers for pets.",
+                "isIncluded": "TRUE",
+                "amenityCost": 12.99
+            },
+            {
+                "amenityName": "Sarkidornis melanotos",
+                "amenityType": "SAUNA",
+                "amenityDescription": "Ready-to-eat salad with kale, lemon, and cheese.",
+                "isIncluded": "TRUE",
+                "amenityCost": 4.99
+            },
+            {
+                "amenityName": "Corvus albus",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Yoga socks designed to provide better grip and stability.",
+                "isIncluded": "FALSE",
+                "amenityCost": 12.99
+            }
+        ]
+    },
+    {
+        "name": "Caloplaca litoricola Brodo",
+        "address": "709 Charing Cross Alley",
+        "type": "BED_AND_BREAKFAST",
+        "phone": "274-524-4388",
+        "roomsAvailable": 88,
+        "rating": 9,
+        "brand": "Muscle Ice",
+        "description": "Beautiful wall calendar for organizing your schedule.",
+        "amenities": [
+            {
+                "amenityName": "Streptopelia decipiens",
+                "amenityType": "GYM",
+                "amenityDescription": "Precision digital scale for accurate cooking measurements.",
+                "isIncluded": "TRUE",
+                "amenityCost": 22.99
+            },
+            {
+                "amenityName": "Bucephala clangula",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish watering can for plants with easy pouring nozzle.",
+                "isIncluded": "TRUE",
+                "amenityCost": 19.99
+            },
+            {
+                "amenityName": "Bison bison",
+                "amenityType": "SPA",
+                "amenityDescription": "Versatile electric skillet for stir-frying and searing.",
+                "isIncluded": "FALSE",
+                "amenityCost": 49.99
+            },
+            {
+                "amenityName": "Prionace glauca",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Stylish bar stools with adjustable height and swivel features.",
+                "isIncluded": "TRUE",
+                "amenityCost": 149.99
+            },
+            {
+                "amenityName": "Loxodonta africana",
+                "amenityType": "LAUNDRY",
+                "amenityDescription": "Personal massager for muscle recovery.",
+                "isIncluded": "TRUE",
+                "amenityCost": 79.99
+            },
+            {
+                "amenityName": "Estrilda erythronotos",
+                "amenityType": "CHILDCARE",
+                "amenityDescription": "Crunchy seeds perfect for toppings and baking.",
+                "isIncluded": "FALSE",
+                "amenityCost": 1.99
+            },
+            {
+                "amenityName": "Coluber constrictor",
+                "amenityType": "AIRPORT_SHUTTLE",
+                "amenityDescription": "Gluten-free flour made from ground chickpeas, great for cooking.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.29
+            },
+            {
+                "amenityName": "Phoca vitulina",
+                "amenityType": "POOL",
+                "amenityDescription": "Golden brown potato tots, crispy on the outside and fluffy inside.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.69
+            },
+            {
+                "amenityName": "Macropus fuliginosus",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish and spacious case for makeup and beauty products.",
+                "isIncluded": "FALSE",
+                "amenityCost": 99.99
+            },
+            {
+                "amenityName": "Sylvicapra grimma",
+                "amenityType": "POOL",
+                "amenityDescription": "Frozen shrimp seasoned with chili and lime, perfect for quick dinners.",
+                "isIncluded": "FALSE",
+                "amenityCost": 8.99
+            },
+            {
+                "amenityName": "Phoenicopterus ruber",
+                "amenityType": "PARKING",
+                "amenityDescription": "Safe and easy-to-use nail clippers for pets.",
+                "isIncluded": "TRUE",
+                "amenityCost": 12.99
+            },
+            {
+                "amenityName": "Sarkidornis melanotos",
+                "amenityType": "SAUNA",
+                "amenityDescription": "Ready-to-eat salad with kale, lemon, and cheese.",
+                "isIncluded": "TRUE",
+                "amenityCost": 4.99
+            },
+            {
+                "amenityName": "Corvus albus",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Yoga socks designed to provide better grip and stability.",
+                "isIncluded": "FALSE",
+                "amenityCost": 12.99
+            }
+        ]
+    },
+    {
+        "name": "Dalea mollis Benth.",
+        "address": "0376 Oriole Crossing",
+        "type": "VILLA",
+        "phone": "357-890-2986",
+        "roomsAvailable": 7,
+        "rating": 1,
+        "brand": "ELAPRASE",
+        "description": "Frozen mango chunks for smoothies or snacking.",
+        "amenities": [
+            {
+                "amenityName": "Streptopelia decipiens",
+                "amenityType": "GYM",
+                "amenityDescription": "Precision digital scale for accurate cooking measurements.",
+                "isIncluded": "TRUE",
+                "amenityCost": 22.99
+            },
+            {
+                "amenityName": "Bucephala clangula",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish watering can for plants with easy pouring nozzle.",
+                "isIncluded": "TRUE",
+                "amenityCost": 19.99
+            },
+            {
+                "amenityName": "Bison bison",
+                "amenityType": "SPA",
+                "amenityDescription": "Versatile electric skillet for stir-frying and searing.",
+                "isIncluded": "FALSE",
+                "amenityCost": 49.99
+            },
+            {
+                "amenityName": "Prionace glauca",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Stylish bar stools with adjustable height and swivel features.",
+                "isIncluded": "TRUE",
+                "amenityCost": 149.99
+            },
+            {
+                "amenityName": "Loxodonta africana",
+                "amenityType": "LAUNDRY",
+                "amenityDescription": "Personal massager for muscle recovery.",
+                "isIncluded": "TRUE",
+                "amenityCost": 79.99
+            },
+            {
+                "amenityName": "Estrilda erythronotos",
+                "amenityType": "CHILDCARE",
+                "amenityDescription": "Crunchy seeds perfect for toppings and baking.",
+                "isIncluded": "FALSE",
+                "amenityCost": 1.99
+            },
+            {
+                "amenityName": "Coluber constrictor",
+                "amenityType": "AIRPORT_SHUTTLE",
+                "amenityDescription": "Gluten-free flour made from ground chickpeas, great for cooking.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.29
+            },
+            {
+                "amenityName": "Phoca vitulina",
+                "amenityType": "POOL",
+                "amenityDescription": "Golden brown potato tots, crispy on the outside and fluffy inside.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.69
+            },
+            {
+                "amenityName": "Macropus fuliginosus",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish and spacious case for makeup and beauty products.",
+                "isIncluded": "FALSE",
+                "amenityCost": 99.99
+            },
+            {
+                "amenityName": "Sylvicapra grimma",
+                "amenityType": "POOL",
+                "amenityDescription": "Frozen shrimp seasoned with chili and lime, perfect for quick dinners.",
+                "isIncluded": "FALSE",
+                "amenityCost": 8.99
+            },
+            {
+                "amenityName": "Phoenicopterus ruber",
+                "amenityType": "PARKING",
+                "amenityDescription": "Safe and easy-to-use nail clippers for pets.",
+                "isIncluded": "TRUE",
+                "amenityCost": 12.99
+            },
+            {
+                "amenityName": "Sarkidornis melanotos",
+                "amenityType": "SAUNA",
+                "amenityDescription": "Ready-to-eat salad with kale, lemon, and cheese.",
+                "isIncluded": "TRUE",
+                "amenityCost": 4.99
+            },
+            {
+                "amenityName": "Corvus albus",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Yoga socks designed to provide better grip and stability.",
+                "isIncluded": "FALSE",
+                "amenityCost": 12.99
+            }
+        ]
+    },
+    {
+        "name": "Alopecurus saccatus Vasey",
+        "address": "545 Surrey Way",
+        "type": "LODGE",
+        "phone": "372-195-2360",
+        "roomsAvailable": 89,
+        "rating": 1,
+        "brand": "Hydrochlorothiazide",
+        "description": "Solar-powered charger for smartphones and tablets.",
+        "amenities": [
+            {
+                "amenityName": "Streptopelia decipiens",
+                "amenityType": "GYM",
+                "amenityDescription": "Precision digital scale for accurate cooking measurements.",
+                "isIncluded": "TRUE",
+                "amenityCost": 22.99
+            },
+            {
+                "amenityName": "Bucephala clangula",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish watering can for plants with easy pouring nozzle.",
+                "isIncluded": "TRUE",
+                "amenityCost": 19.99
+            },
+            {
+                "amenityName": "Bison bison",
+                "amenityType": "SPA",
+                "amenityDescription": "Versatile electric skillet for stir-frying and searing.",
+                "isIncluded": "FALSE",
+                "amenityCost": 49.99
+            },
+            {
+                "amenityName": "Prionace glauca",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Stylish bar stools with adjustable height and swivel features.",
+                "isIncluded": "TRUE",
+                "amenityCost": 149.99
+            },
+            {
+                "amenityName": "Loxodonta africana",
+                "amenityType": "LAUNDRY",
+                "amenityDescription": "Personal massager for muscle recovery.",
+                "isIncluded": "TRUE",
+                "amenityCost": 79.99
+            },
+            {
+                "amenityName": "Estrilda erythronotos",
+                "amenityType": "CHILDCARE",
+                "amenityDescription": "Crunchy seeds perfect for toppings and baking.",
+                "isIncluded": "FALSE",
+                "amenityCost": 1.99
+            },
+            {
+                "amenityName": "Coluber constrictor",
+                "amenityType": "AIRPORT_SHUTTLE",
+                "amenityDescription": "Gluten-free flour made from ground chickpeas, great for cooking.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.29
+            },
+            {
+                "amenityName": "Phoca vitulina",
+                "amenityType": "POOL",
+                "amenityDescription": "Golden brown potato tots, crispy on the outside and fluffy inside.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.69
+            },
+            {
+                "amenityName": "Macropus fuliginosus",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish and spacious case for makeup and beauty products.",
+                "isIncluded": "FALSE",
+                "amenityCost": 99.99
+            },
+            {
+                "amenityName": "Sylvicapra grimma",
+                "amenityType": "POOL",
+                "amenityDescription": "Frozen shrimp seasoned with chili and lime, perfect for quick dinners.",
+                "isIncluded": "FALSE",
+                "amenityCost": 8.99
+            },
+            {
+                "amenityName": "Phoenicopterus ruber",
+                "amenityType": "PARKING",
+                "amenityDescription": "Safe and easy-to-use nail clippers for pets.",
+                "isIncluded": "TRUE",
+                "amenityCost": 12.99
+            },
+            {
+                "amenityName": "Sarkidornis melanotos",
+                "amenityType": "SAUNA",
+                "amenityDescription": "Ready-to-eat salad with kale, lemon, and cheese.",
+                "isIncluded": "TRUE",
+                "amenityCost": 4.99
+            },
+            {
+                "amenityName": "Corvus albus",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Yoga socks designed to provide better grip and stability.",
+                "isIncluded": "FALSE",
+                "amenityCost": 12.99
+            }
+        ]
+    },
+    {
+        "name": "Sagittaria filiformis J.G. Sm.",
+        "address": "5227 Shasta Crossing",
+        "type": "BOUTIQUE_HOTEL",
+        "phone": "212-785-1858",
+        "roomsAvailable": 61,
+        "rating": 9,
+        "brand": "SoundBody Advanced Relief",
+        "description": "Fast and convenient air pump for inflating toys and furniture.",
+        "amenities": [
+            {
+                "amenityName": "Streptopelia decipiens",
+                "amenityType": "GYM",
+                "amenityDescription": "Precision digital scale for accurate cooking measurements.",
+                "isIncluded": "TRUE",
+                "amenityCost": 22.99
+            },
+            {
+                "amenityName": "Bucephala clangula",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish watering can for plants with easy pouring nozzle.",
+                "isIncluded": "TRUE",
+                "amenityCost": 19.99
+            },
+            {
+                "amenityName": "Bison bison",
+                "amenityType": "SPA",
+                "amenityDescription": "Versatile electric skillet for stir-frying and searing.",
+                "isIncluded": "FALSE",
+                "amenityCost": 49.99
+            },
+            {
+                "amenityName": "Prionace glauca",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Stylish bar stools with adjustable height and swivel features.",
+                "isIncluded": "TRUE",
+                "amenityCost": 149.99
+            },
+            {
+                "amenityName": "Loxodonta africana",
+                "amenityType": "LAUNDRY",
+                "amenityDescription": "Personal massager for muscle recovery.",
+                "isIncluded": "TRUE",
+                "amenityCost": 79.99
+            },
+            {
+                "amenityName": "Estrilda erythronotos",
+                "amenityType": "CHILDCARE",
+                "amenityDescription": "Crunchy seeds perfect for toppings and baking.",
+                "isIncluded": "FALSE",
+                "amenityCost": 1.99
+            },
+            {
+                "amenityName": "Coluber constrictor",
+                "amenityType": "AIRPORT_SHUTTLE",
+                "amenityDescription": "Gluten-free flour made from ground chickpeas, great for cooking.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.29
+            },
+            {
+                "amenityName": "Phoca vitulina",
+                "amenityType": "POOL",
+                "amenityDescription": "Golden brown potato tots, crispy on the outside and fluffy inside.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.69
+            },
+            {
+                "amenityName": "Macropus fuliginosus",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish and spacious case for makeup and beauty products.",
+                "isIncluded": "FALSE",
+                "amenityCost": 99.99
+            },
+            {
+                "amenityName": "Sylvicapra grimma",
+                "amenityType": "POOL",
+                "amenityDescription": "Frozen shrimp seasoned with chili and lime, perfect for quick dinners.",
+                "isIncluded": "FALSE",
+                "amenityCost": 8.99
+            },
+            {
+                "amenityName": "Phoenicopterus ruber",
+                "amenityType": "PARKING",
+                "amenityDescription": "Safe and easy-to-use nail clippers for pets.",
+                "isIncluded": "TRUE",
+                "amenityCost": 12.99
+            },
+            {
+                "amenityName": "Sarkidornis melanotos",
+                "amenityType": "SAUNA",
+                "amenityDescription": "Ready-to-eat salad with kale, lemon, and cheese.",
+                "isIncluded": "TRUE",
+                "amenityCost": 4.99
+            },
+            {
+                "amenityName": "Corvus albus",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Yoga socks designed to provide better grip and stability.",
+                "isIncluded": "FALSE",
+                "amenityCost": 12.99
+            }
+        ]
+    },
+    {
+        "name": "Bromus ciliatus L. var. ciliatus",
+        "address": "33 Arapahoe Lane",
+        "type": "BED_AND_BREAKFAST",
+        "phone": "170-398-0021",
+        "roomsAvailable": 51,
+        "rating": 2,
+        "brand": "Stridex",
+        "description": "Fresh thyme, perfect for seasoning dishes.",
+        "amenities": [
+            {
+                "amenityName": "Streptopelia decipiens",
+                "amenityType": "GYM",
+                "amenityDescription": "Precision digital scale for accurate cooking measurements.",
+                "isIncluded": "TRUE",
+                "amenityCost": 22.99
+            },
+            {
+                "amenityName": "Bucephala clangula",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish watering can for plants with easy pouring nozzle.",
+                "isIncluded": "TRUE",
+                "amenityCost": 19.99
+            },
+            {
+                "amenityName": "Bison bison",
+                "amenityType": "SPA",
+                "amenityDescription": "Versatile electric skillet for stir-frying and searing.",
+                "isIncluded": "FALSE",
+                "amenityCost": 49.99
+            },
+            {
+                "amenityName": "Prionace glauca",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Stylish bar stools with adjustable height and swivel features.",
+                "isIncluded": "TRUE",
+                "amenityCost": 149.99
+            },
+            {
+                "amenityName": "Loxodonta africana",
+                "amenityType": "LAUNDRY",
+                "amenityDescription": "Personal massager for muscle recovery.",
+                "isIncluded": "TRUE",
+                "amenityCost": 79.99
+            },
+            {
+                "amenityName": "Estrilda erythronotos",
+                "amenityType": "CHILDCARE",
+                "amenityDescription": "Crunchy seeds perfect for toppings and baking.",
+                "isIncluded": "FALSE",
+                "amenityCost": 1.99
+            },
+            {
+                "amenityName": "Coluber constrictor",
+                "amenityType": "AIRPORT_SHUTTLE",
+                "amenityDescription": "Gluten-free flour made from ground chickpeas, great for cooking.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.29
+            },
+            {
+                "amenityName": "Phoca vitulina",
+                "amenityType": "POOL",
+                "amenityDescription": "Golden brown potato tots, crispy on the outside and fluffy inside.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.69
+            },
+            {
+                "amenityName": "Macropus fuliginosus",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish and spacious case for makeup and beauty products.",
+                "isIncluded": "FALSE",
+                "amenityCost": 99.99
+            },
+            {
+                "amenityName": "Sylvicapra grimma",
+                "amenityType": "POOL",
+                "amenityDescription": "Frozen shrimp seasoned with chili and lime, perfect for quick dinners.",
+                "isIncluded": "FALSE",
+                "amenityCost": 8.99
+            },
+            {
+                "amenityName": "Phoenicopterus ruber",
+                "amenityType": "PARKING",
+                "amenityDescription": "Safe and easy-to-use nail clippers for pets.",
+                "isIncluded": "TRUE",
+                "amenityCost": 12.99
+            },
+            {
+                "amenityName": "Sarkidornis melanotos",
+                "amenityType": "SAUNA",
+                "amenityDescription": "Ready-to-eat salad with kale, lemon, and cheese.",
+                "isIncluded": "TRUE",
+                "amenityCost": 4.99
+            },
+            {
+                "amenityName": "Corvus albus",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Yoga socks designed to provide better grip and stability.",
+                "isIncluded": "FALSE",
+                "amenityCost": 12.99
+            }
+        ]
+    },
+    {
+        "name": "Aristolochia clematitis L.",
+        "address": "7 Granby Point",
+        "type": "VILLA",
+        "phone": "784-717-9220",
+        "roomsAvailable": 56,
+        "rating": 4,
+        "brand": "RISPERDAL",
+        "description": "Multi-level cat tree for play and scratching.",
+        "amenities": [
+            {
+                "amenityName": "Streptopelia decipiens",
+                "amenityType": "GYM",
+                "amenityDescription": "Precision digital scale for accurate cooking measurements.",
+                "isIncluded": "TRUE",
+                "amenityCost": 22.99
+            },
+            {
+                "amenityName": "Bucephala clangula",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish watering can for plants with easy pouring nozzle.",
+                "isIncluded": "TRUE",
+                "amenityCost": 19.99
+            },
+            {
+                "amenityName": "Bison bison",
+                "amenityType": "SPA",
+                "amenityDescription": "Versatile electric skillet for stir-frying and searing.",
+                "isIncluded": "FALSE",
+                "amenityCost": 49.99
+            },
+            {
+                "amenityName": "Prionace glauca",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Stylish bar stools with adjustable height and swivel features.",
+                "isIncluded": "TRUE",
+                "amenityCost": 149.99
+            },
+            {
+                "amenityName": "Loxodonta africana",
+                "amenityType": "LAUNDRY",
+                "amenityDescription": "Personal massager for muscle recovery.",
+                "isIncluded": "TRUE",
+                "amenityCost": 79.99
+            },
+            {
+                "amenityName": "Estrilda erythronotos",
+                "amenityType": "CHILDCARE",
+                "amenityDescription": "Crunchy seeds perfect for toppings and baking.",
+                "isIncluded": "FALSE",
+                "amenityCost": 1.99
+            },
+            {
+                "amenityName": "Coluber constrictor",
+                "amenityType": "AIRPORT_SHUTTLE",
+                "amenityDescription": "Gluten-free flour made from ground chickpeas, great for cooking.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.29
+            },
+            {
+                "amenityName": "Phoca vitulina",
+                "amenityType": "POOL",
+                "amenityDescription": "Golden brown potato tots, crispy on the outside and fluffy inside.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.69
+            },
+            {
+                "amenityName": "Macropus fuliginosus",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish and spacious case for makeup and beauty products.",
+                "isIncluded": "FALSE",
+                "amenityCost": 99.99
+            },
+            {
+                "amenityName": "Sylvicapra grimma",
+                "amenityType": "POOL",
+                "amenityDescription": "Frozen shrimp seasoned with chili and lime, perfect for quick dinners.",
+                "isIncluded": "FALSE",
+                "amenityCost": 8.99
+            },
+            {
+                "amenityName": "Phoenicopterus ruber",
+                "amenityType": "PARKING",
+                "amenityDescription": "Safe and easy-to-use nail clippers for pets.",
+                "isIncluded": "TRUE",
+                "amenityCost": 12.99
+            },
+            {
+                "amenityName": "Sarkidornis melanotos",
+                "amenityType": "SAUNA",
+                "amenityDescription": "Ready-to-eat salad with kale, lemon, and cheese.",
+                "isIncluded": "TRUE",
+                "amenityCost": 4.99
+            },
+            {
+                "amenityName": "Corvus albus",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Yoga socks designed to provide better grip and stability.",
+                "isIncluded": "FALSE",
+                "amenityCost": 12.99
+            }
+        ]
+    },
+    {
+        "name": "Hygroamblystegium tenax (Hedw.) Jenn. var. spinifolium (Schimp.) Jenn.",
+        "address": "3 Graceland Alley",
+        "type": "CABIN",
+        "phone": "275-718-0065",
+        "roomsAvailable": 100,
+        "rating": 8,
+        "brand": "Mitoxantrone Hydrochloride",
+        "description": "Fast and convenient air pump for inflating toys and furniture.",
+        "amenities": [
+            {
+                "amenityName": "Streptopelia decipiens",
+                "amenityType": "GYM",
+                "amenityDescription": "Precision digital scale for accurate cooking measurements.",
+                "isIncluded": "TRUE",
+                "amenityCost": 22.99
+            },
+            {
+                "amenityName": "Bucephala clangula",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish watering can for plants with easy pouring nozzle.",
+                "isIncluded": "TRUE",
+                "amenityCost": 19.99
+            },
+            {
+                "amenityName": "Bison bison",
+                "amenityType": "SPA",
+                "amenityDescription": "Versatile electric skillet for stir-frying and searing.",
+                "isIncluded": "FALSE",
+                "amenityCost": 49.99
+            },
+            {
+                "amenityName": "Prionace glauca",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Stylish bar stools with adjustable height and swivel features.",
+                "isIncluded": "TRUE",
+                "amenityCost": 149.99
+            },
+            {
+                "amenityName": "Loxodonta africana",
+                "amenityType": "LAUNDRY",
+                "amenityDescription": "Personal massager for muscle recovery.",
+                "isIncluded": "TRUE",
+                "amenityCost": 79.99
+            },
+            {
+                "amenityName": "Estrilda erythronotos",
+                "amenityType": "CHILDCARE",
+                "amenityDescription": "Crunchy seeds perfect for toppings and baking.",
+                "isIncluded": "FALSE",
+                "amenityCost": 1.99
+            },
+            {
+                "amenityName": "Coluber constrictor",
+                "amenityType": "AIRPORT_SHUTTLE",
+                "amenityDescription": "Gluten-free flour made from ground chickpeas, great for cooking.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.29
+            },
+            {
+                "amenityName": "Phoca vitulina",
+                "amenityType": "POOL",
+                "amenityDescription": "Golden brown potato tots, crispy on the outside and fluffy inside.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.69
+            },
+            {
+                "amenityName": "Macropus fuliginosus",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish and spacious case for makeup and beauty products.",
+                "isIncluded": "FALSE",
+                "amenityCost": 99.99
+            },
+            {
+                "amenityName": "Sylvicapra grimma",
+                "amenityType": "POOL",
+                "amenityDescription": "Frozen shrimp seasoned with chili and lime, perfect for quick dinners.",
+                "isIncluded": "FALSE",
+                "amenityCost": 8.99
+            },
+            {
+                "amenityName": "Phoenicopterus ruber",
+                "amenityType": "PARKING",
+                "amenityDescription": "Safe and easy-to-use nail clippers for pets.",
+                "isIncluded": "TRUE",
+                "amenityCost": 12.99
+            },
+            {
+                "amenityName": "Sarkidornis melanotos",
+                "amenityType": "SAUNA",
+                "amenityDescription": "Ready-to-eat salad with kale, lemon, and cheese.",
+                "isIncluded": "TRUE",
+                "amenityCost": 4.99
+            },
+            {
+                "amenityName": "Corvus albus",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Yoga socks designed to provide better grip and stability.",
+                "isIncluded": "FALSE",
+                "amenityCost": 12.99
+            }
+        ]
+    },
+    {
+        "name": "Vicia americana Muhl. ex Willd. ssp. minor (Hook.) C.R. Gunn",
+        "address": "920 Upham Hill",
+        "type": "VILLA",
+        "phone": "480-571-7976",
+        "roomsAvailable": 78,
+        "rating": 7,
+        "brand": "Chicory Ginger Digestive Bitters",
+        "description": "A delicious chicken dish featuring honey and sesame flavors.",
+        "amenities": [
+            {
+                "amenityName": "Streptopelia decipiens",
+                "amenityType": "GYM",
+                "amenityDescription": "Precision digital scale for accurate cooking measurements.",
+                "isIncluded": "TRUE",
+                "amenityCost": 22.99
+            },
+            {
+                "amenityName": "Bucephala clangula",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish watering can for plants with easy pouring nozzle.",
+                "isIncluded": "TRUE",
+                "amenityCost": 19.99
+            },
+            {
+                "amenityName": "Bison bison",
+                "amenityType": "SPA",
+                "amenityDescription": "Versatile electric skillet for stir-frying and searing.",
+                "isIncluded": "FALSE",
+                "amenityCost": 49.99
+            },
+            {
+                "amenityName": "Prionace glauca",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Stylish bar stools with adjustable height and swivel features.",
+                "isIncluded": "TRUE",
+                "amenityCost": 149.99
+            },
+            {
+                "amenityName": "Loxodonta africana",
+                "amenityType": "LAUNDRY",
+                "amenityDescription": "Personal massager for muscle recovery.",
+                "isIncluded": "TRUE",
+                "amenityCost": 79.99
+            },
+            {
+                "amenityName": "Estrilda erythronotos",
+                "amenityType": "CHILDCARE",
+                "amenityDescription": "Crunchy seeds perfect for toppings and baking.",
+                "isIncluded": "FALSE",
+                "amenityCost": 1.99
+            },
+            {
+                "amenityName": "Coluber constrictor",
+                "amenityType": "AIRPORT_SHUTTLE",
+                "amenityDescription": "Gluten-free flour made from ground chickpeas, great for cooking.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.29
+            },
+            {
+                "amenityName": "Phoca vitulina",
+                "amenityType": "POOL",
+                "amenityDescription": "Golden brown potato tots, crispy on the outside and fluffy inside.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.69
+            },
+            {
+                "amenityName": "Macropus fuliginosus",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish and spacious case for makeup and beauty products.",
+                "isIncluded": "FALSE",
+                "amenityCost": 99.99
+            },
+            {
+                "amenityName": "Sylvicapra grimma",
+                "amenityType": "POOL",
+                "amenityDescription": "Frozen shrimp seasoned with chili and lime, perfect for quick dinners.",
+                "isIncluded": "FALSE",
+                "amenityCost": 8.99
+            },
+            {
+                "amenityName": "Phoenicopterus ruber",
+                "amenityType": "PARKING",
+                "amenityDescription": "Safe and easy-to-use nail clippers for pets.",
+                "isIncluded": "TRUE",
+                "amenityCost": 12.99
+            },
+            {
+                "amenityName": "Sarkidornis melanotos",
+                "amenityType": "SAUNA",
+                "amenityDescription": "Ready-to-eat salad with kale, lemon, and cheese.",
+                "isIncluded": "TRUE",
+                "amenityCost": 4.99
+            },
+            {
+                "amenityName": "Corvus albus",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Yoga socks designed to provide better grip and stability.",
+                "isIncluded": "FALSE",
+                "amenityCost": 12.99
+            }
+        ]
+    },
+    {
+        "name": "Pouzolzia zeylanica (L.) Benn.",
+        "address": "96 Hovde Parkway",
+        "type": "CABIN",
+        "phone": "883-283-4102",
+        "roomsAvailable": 35,
+        "rating": 1,
+        "brand": "Phentermine hydrochloride",
+        "description": "Adjustable phone mount for car dashboard.",
+        "amenities": [
+            {
+                "amenityName": "Streptopelia decipiens",
+                "amenityType": "GYM",
+                "amenityDescription": "Precision digital scale for accurate cooking measurements.",
+                "isIncluded": "TRUE",
+                "amenityCost": 22.99
+            },
+            {
+                "amenityName": "Bucephala clangula",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish watering can for plants with easy pouring nozzle.",
+                "isIncluded": "TRUE",
+                "amenityCost": 19.99
+            },
+            {
+                "amenityName": "Bison bison",
+                "amenityType": "SPA",
+                "amenityDescription": "Versatile electric skillet for stir-frying and searing.",
+                "isIncluded": "FALSE",
+                "amenityCost": 49.99
+            },
+            {
+                "amenityName": "Prionace glauca",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Stylish bar stools with adjustable height and swivel features.",
+                "isIncluded": "TRUE",
+                "amenityCost": 149.99
+            },
+            {
+                "amenityName": "Loxodonta africana",
+                "amenityType": "LAUNDRY",
+                "amenityDescription": "Personal massager for muscle recovery.",
+                "isIncluded": "TRUE",
+                "amenityCost": 79.99
+            },
+            {
+                "amenityName": "Estrilda erythronotos",
+                "amenityType": "CHILDCARE",
+                "amenityDescription": "Crunchy seeds perfect for toppings and baking.",
+                "isIncluded": "FALSE",
+                "amenityCost": 1.99
+            },
+            {
+                "amenityName": "Coluber constrictor",
+                "amenityType": "AIRPORT_SHUTTLE",
+                "amenityDescription": "Gluten-free flour made from ground chickpeas, great for cooking.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.29
+            },
+            {
+                "amenityName": "Phoca vitulina",
+                "amenityType": "POOL",
+                "amenityDescription": "Golden brown potato tots, crispy on the outside and fluffy inside.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.69
+            },
+            {
+                "amenityName": "Macropus fuliginosus",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish and spacious case for makeup and beauty products.",
+                "isIncluded": "FALSE",
+                "amenityCost": 99.99
+            },
+            {
+                "amenityName": "Sylvicapra grimma",
+                "amenityType": "POOL",
+                "amenityDescription": "Frozen shrimp seasoned with chili and lime, perfect for quick dinners.",
+                "isIncluded": "FALSE",
+                "amenityCost": 8.99
+            },
+            {
+                "amenityName": "Phoenicopterus ruber",
+                "amenityType": "PARKING",
+                "amenityDescription": "Safe and easy-to-use nail clippers for pets.",
+                "isIncluded": "TRUE",
+                "amenityCost": 12.99
+            },
+            {
+                "amenityName": "Sarkidornis melanotos",
+                "amenityType": "SAUNA",
+                "amenityDescription": "Ready-to-eat salad with kale, lemon, and cheese.",
+                "isIncluded": "TRUE",
+                "amenityCost": 4.99
+            },
+            {
+                "amenityName": "Corvus albus",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Yoga socks designed to provide better grip and stability.",
+                "isIncluded": "FALSE",
+                "amenityCost": 12.99
+            }
+        ]
+    },
+    {
+        "name": "Carex ×olneyi Boott",
+        "address": "75 Memorial Trail",
+        "type": "RESORT",
+        "phone": "429-121-0242",
+        "roomsAvailable": 58,
+        "rating": 3,
+        "brand": "OXYGEN",
+        "description": "Practical organizer for keeping your home tidy and clutter-free.",
+        "amenities": [
+            {
+                "amenityName": "Streptopelia decipiens",
+                "amenityType": "GYM",
+                "amenityDescription": "Precision digital scale for accurate cooking measurements.",
+                "isIncluded": "TRUE",
+                "amenityCost": 22.99
+            },
+            {
+                "amenityName": "Bucephala clangula",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish watering can for plants with easy pouring nozzle.",
+                "isIncluded": "TRUE",
+                "amenityCost": 19.99
+            },
+            {
+                "amenityName": "Bison bison",
+                "amenityType": "SPA",
+                "amenityDescription": "Versatile electric skillet for stir-frying and searing.",
+                "isIncluded": "FALSE",
+                "amenityCost": 49.99
+            },
+            {
+                "amenityName": "Prionace glauca",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Stylish bar stools with adjustable height and swivel features.",
+                "isIncluded": "TRUE",
+                "amenityCost": 149.99
+            },
+            {
+                "amenityName": "Loxodonta africana",
+                "amenityType": "LAUNDRY",
+                "amenityDescription": "Personal massager for muscle recovery.",
+                "isIncluded": "TRUE",
+                "amenityCost": 79.99
+            },
+            {
+                "amenityName": "Estrilda erythronotos",
+                "amenityType": "CHILDCARE",
+                "amenityDescription": "Crunchy seeds perfect for toppings and baking.",
+                "isIncluded": "FALSE",
+                "amenityCost": 1.99
+            },
+            {
+                "amenityName": "Coluber constrictor",
+                "amenityType": "AIRPORT_SHUTTLE",
+                "amenityDescription": "Gluten-free flour made from ground chickpeas, great for cooking.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.29
+            },
+            {
+                "amenityName": "Phoca vitulina",
+                "amenityType": "POOL",
+                "amenityDescription": "Golden brown potato tots, crispy on the outside and fluffy inside.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.69
+            },
+            {
+                "amenityName": "Macropus fuliginosus",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish and spacious case for makeup and beauty products.",
+                "isIncluded": "FALSE",
+                "amenityCost": 99.99
+            },
+            {
+                "amenityName": "Sylvicapra grimma",
+                "amenityType": "POOL",
+                "amenityDescription": "Frozen shrimp seasoned with chili and lime, perfect for quick dinners.",
+                "isIncluded": "FALSE",
+                "amenityCost": 8.99
+            },
+            {
+                "amenityName": "Phoenicopterus ruber",
+                "amenityType": "PARKING",
+                "amenityDescription": "Safe and easy-to-use nail clippers for pets.",
+                "isIncluded": "TRUE",
+                "amenityCost": 12.99
+            },
+            {
+                "amenityName": "Sarkidornis melanotos",
+                "amenityType": "SAUNA",
+                "amenityDescription": "Ready-to-eat salad with kale, lemon, and cheese.",
+                "isIncluded": "TRUE",
+                "amenityCost": 4.99
+            },
+            {
+                "amenityName": "Corvus albus",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Yoga socks designed to provide better grip and stability.",
+                "isIncluded": "FALSE",
+                "amenityCost": 12.99
+            }
+        ]
+    },
+    {
+        "name": "Dubautia syndetica G.D. Carr & D.H. Lorence",
+        "address": "3 Oak Avenue",
+        "type": "HOSTEL",
+        "phone": "875-624-8793",
+        "roomsAvailable": 78,
+        "rating": 3,
+        "brand": "ANTIBACTERIAL FOAMING",
+        "description": "Variety pack of craft supplies for kids' projects.",
+        "amenities": [
+            {
+                "amenityName": "Streptopelia decipiens",
+                "amenityType": "GYM",
+                "amenityDescription": "Precision digital scale for accurate cooking measurements.",
+                "isIncluded": "TRUE",
+                "amenityCost": 22.99
+            },
+            {
+                "amenityName": "Bucephala clangula",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish watering can for plants with easy pouring nozzle.",
+                "isIncluded": "TRUE",
+                "amenityCost": 19.99
+            },
+            {
+                "amenityName": "Bison bison",
+                "amenityType": "SPA",
+                "amenityDescription": "Versatile electric skillet for stir-frying and searing.",
+                "isIncluded": "FALSE",
+                "amenityCost": 49.99
+            },
+            {
+                "amenityName": "Prionace glauca",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Stylish bar stools with adjustable height and swivel features.",
+                "isIncluded": "TRUE",
+                "amenityCost": 149.99
+            },
+            {
+                "amenityName": "Loxodonta africana",
+                "amenityType": "LAUNDRY",
+                "amenityDescription": "Personal massager for muscle recovery.",
+                "isIncluded": "TRUE",
+                "amenityCost": 79.99
+            },
+            {
+                "amenityName": "Estrilda erythronotos",
+                "amenityType": "CHILDCARE",
+                "amenityDescription": "Crunchy seeds perfect for toppings and baking.",
+                "isIncluded": "FALSE",
+                "amenityCost": 1.99
+            },
+            {
+                "amenityName": "Coluber constrictor",
+                "amenityType": "AIRPORT_SHUTTLE",
+                "amenityDescription": "Gluten-free flour made from ground chickpeas, great for cooking.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.29
+            },
+            {
+                "amenityName": "Phoca vitulina",
+                "amenityType": "POOL",
+                "amenityDescription": "Golden brown potato tots, crispy on the outside and fluffy inside.",
+                "isIncluded": "TRUE",
+                "amenityCost": 3.69
+            },
+            {
+                "amenityName": "Macropus fuliginosus",
+                "amenityType": "BUSINESS_CENTER",
+                "amenityDescription": "Stylish and spacious case for makeup and beauty products.",
+                "isIncluded": "FALSE",
+                "amenityCost": 99.99
+            },
+            {
+                "amenityName": "Sylvicapra grimma",
+                "amenityType": "POOL",
+                "amenityDescription": "Frozen shrimp seasoned with chili and lime, perfect for quick dinners.",
+                "isIncluded": "FALSE",
+                "amenityCost": 8.99
+            },
+            {
+                "amenityName": "Phoenicopterus ruber",
+                "amenityType": "PARKING",
+                "amenityDescription": "Safe and easy-to-use nail clippers for pets.",
+                "isIncluded": "TRUE",
+                "amenityCost": 12.99
+            },
+            {
+                "amenityName": "Sarkidornis melanotos",
+                "amenityType": "SAUNA",
+                "amenityDescription": "Ready-to-eat salad with kale, lemon, and cheese.",
+                "isIncluded": "TRUE",
+                "amenityCost": 4.99
+            },
+            {
+                "amenityName": "Corvus albus",
+                "amenityType": "PET_FRIENDLY",
+                "amenityDescription": "Yoga socks designed to provide better grip and stability.",
+                "isIncluded": "FALSE",
+                "amenityCost": 12.99
+            }
+        ]
+    }
+]

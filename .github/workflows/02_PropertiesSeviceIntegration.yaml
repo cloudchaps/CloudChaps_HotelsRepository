@@ -43,6 +43,16 @@ jobs:
     
     - name: list files
       run: ls -la target && ls -la
+
+    - name: Deploy to web server
+      uses: moonpathbg/scp_uploader@latest
+      with:
+          host: ${{ secrets.HOST }}
+          port: ${{ secrets.PORT }}
+          username: ${{ secrets.USERNAME }}
+          key : ${{ secrets.SSH_KEY }}
+          source: "./target/Properties-0.0.1.war"
+          target: "/var/lib/tomcat10/webapps/properties-0.0.1.war"
     
     
   

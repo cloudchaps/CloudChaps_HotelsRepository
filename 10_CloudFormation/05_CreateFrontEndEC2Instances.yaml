@@ -71,9 +71,9 @@ Resources:
             mkdir -p /etc/systemd/system/tomcat10.service.d
             cat > /etc/systemd/system/tomcat10.service.d/override.conf <<EOF
             [Service]
-            Environment="DB_URL=jdbc:mysql://'${DBServerPrivateIP}':3306/cloudchaps_hotels?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC"
-            Environment="DB_USERNAME='${DBUserName}'"
-            Environment="DB_PASSWORD='${DBMasterPassword}'"
+            Environment="DB_URL=jdbc:mysql://${DBServerPrivateIP}:3306/cloudchaps_hotels?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC"
+            Environment="DB_USERNAME=${DBUserName}"
+            Environment="DB_PASSWORD=${DBMasterPassword}"
             EOF
             # 2. Daemon reload
             systemctl daemon-reload

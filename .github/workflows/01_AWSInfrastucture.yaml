@@ -65,5 +65,5 @@ jobs:
       run: |
         aws cloudformation deploy \
           --template-file ./10_CloudFormation/04_CreateEC2Instances.yaml \
-          --stack-name DEV03NatGateway \
+          --stack-name DEV04EC2Instances \
           --role-arn ${{ secrets.DEV_ROLE_ARN }}

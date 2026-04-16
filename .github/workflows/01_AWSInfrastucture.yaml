@@ -10,7 +10,6 @@ on:
 jobs:
 
   validation:
-    needs: authentication
     runs-on: ubuntu-latest
 
     steps:

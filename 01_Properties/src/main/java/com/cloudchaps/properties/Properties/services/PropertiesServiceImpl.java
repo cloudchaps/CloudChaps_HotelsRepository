@@ -1,5 +1,6 @@
 package com.cloudchaps.properties.Properties.services;
 
+import java.util.Collections;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.cloudchaps.properties.Properties.DTOs.PropertiesDTO;
 import com.cloudchaps.properties.Properties.mappers.PropertiesMapper;
+import com.cloudchaps.properties.Properties.models.Amenities;
 import com.cloudchaps.properties.Properties.models.Properties;
 import com.cloudchaps.properties.Properties.repositories.PropertiesRepository;
 import java.util.stream.Collectors;
@@ -67,6 +69,21 @@ public class PropertiesServiceImpl implements PropertiesService {
         existingProperty.setRating(propertiesDTO.getRating());
         existingProperty.setBrand(propertiesDTO.getBrand());
         existingProperty.setDescription(propertiesDTO.getDescription());
+        List<Amenities> amenities = propertiesDTO.amenities != null ? propertiesDTO.amenities.stream()
+            .map(a -> {
+                Amenities amenity = new Amenities();
+                amenity.setAmenityName(a.getAmenityName());
+                amenity.setAmenityDescription(a.getAmenityDescription());
+                amenity.setAmenityType(a.getAmenityType());
+                amenity.setIsIncluded(a.getIsIncluded());
+                amenity.setAmenityCost(a.getAmenityCost());
+                amenity.setProperty(existingProperty);
+                return amenity;
+            })
+            .collect(Collectors.toList()) : Collections.emptyList();
+        existingProperty.setAmenities(amenities);
+
+
 
         Properties updatedProperty = propertiesRepository.save(existingProperty);
 

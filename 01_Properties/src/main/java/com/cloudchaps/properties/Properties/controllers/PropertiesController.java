@@ -52,7 +52,7 @@ public class PropertiesController {
         return ResponseEntity.ok(propertiesServiceImpl.getProperty(id));
     }
 
-    @PutMapping("/{id}") // : CHECK
+    @PutMapping("/{id}") // : CHECK 2
     public ResponseEntity<PropertiesDTO> updateProperty(@PathVariable Long id, @RequestBody PropertiesDTO propertiesDTO) {
         return ResponseEntity.ok(propertiesServiceImpl.updateProperty(id, propertiesDTO));
     }

@@ -1,14 +1,22 @@
 package com.cloudchaps.properties.Properties.models;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 import org.hibernate.annotations.CreationTimestamp;
 
+import com.cloudchaps.properties.Properties.enums.PropertyEnum;
+
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -28,8 +36,8 @@ public class Properties {
     @Column(name="property_address")
     private String address;
 
-    @Column(name = "property_type")
-    private String type;
+    @Column(name = "property_type") @Enumerated(EnumType.STRING)
+    private PropertyEnum type;
 
     @Column(name = "property_phone")
     private String phone;
@@ -45,6 +53,9 @@ public class Properties {
 
     @Column(name = "property_description")
     private String description;
+
+    @OneToMany(mappedBy = "property", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private List<Amenities> amenities;
 
     @CreationTimestamp
     private LocalDateTime createdAt;

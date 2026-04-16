@@ -27,7 +27,7 @@ jobs:
     
     - name: Rename artifact 
       run: | 
-        cp target/*.war properties.war
+        cp /01_Properties/target/*.war properties.war
 
     - name: Upload Artifact
       uses: actions/upload-artifact@v4

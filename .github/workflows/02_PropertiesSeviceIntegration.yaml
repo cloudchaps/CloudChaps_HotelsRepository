@@ -5,7 +5,7 @@ on:
     branches: [ development ]
 
     paths:
-      - '01_Properties/*'
+      - '01_Properties/*' 
 
 jobs:
   build:

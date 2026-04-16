@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Get latest commit from repo
-      uses: actions/checkout@v
+      uses: actions/checkout@v2
       with:
         fetch-depth: 0
     

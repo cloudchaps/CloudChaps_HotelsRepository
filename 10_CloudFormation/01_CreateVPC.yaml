@@ -11,12 +11,12 @@ Parameters:
   PublicSubnetCidr:
     Description: Please enter the IP range (CIDR notation) for the public Subnet
     Type: String
-    Default: 10.0.0.0/26
+    Default: 10.0.0.0/27
 
   PublicSubnetCidrReplica:
     Description: Please enter the IP range (CIDR notation) for the public Subnet Replica
     Type: String
-    Default: 10.0.0.64/26
+    Default: 10.0.0.32/27
 
   PrivateSubnetCidr:
     Description: Please enter the IP range (CIDR notation) for the private Subnet

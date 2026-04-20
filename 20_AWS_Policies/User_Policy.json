@@ -15,7 +15,8 @@
                 "cloudformation:DescribeChangeSet"
             ],
             "Resource": [
-                "arn:aws:cloudformation:us-east-1:ACCOUNT_ID:stack/*/*"
+                "arn:aws:cloudformation:us-east-1:ACCOUNT_ID:stack/*/*",
+                "arn:aws:cloudformation:us-east-1:aws:transform/LanguageExtensions"
             ]
         },
         {

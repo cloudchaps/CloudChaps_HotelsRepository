@@ -98,6 +98,30 @@
             ],
             "Effect": "Allow",
             "Sid": "VPCWriteAccess"
+        },
+		{
+            "Effect": "Allow",
+            "Sid": "AllowGetParameters",
+            "Action": [
+                "ssm:GetParameters",
+                "ssm:GetParameter"
+            ],
+            "Resource": [
+                "arn:aws:ssm:us-east-1:ACCOUNT_ID:parameter/*",
+                "arn:aws:ssm:us-east-1:ACCOUNT_ID:parameter/Path/*"
+            ]
+        },
+        {
+            "Sid": "CloudFormationAccess",
+            "Effect": "Allow",
+            "Action": [
+                "cloudformation:CreateChangeSet",
+                "cloudformation:ExecuteChangeSet",
+                "cloudformation:DescribeChangeSet"
+            ],
+            "Resource": [
+                "arn:aws:cloudformation:us-east-1:aws:transform/LanguageExtensions"
+            ]
         }
     ]
 }

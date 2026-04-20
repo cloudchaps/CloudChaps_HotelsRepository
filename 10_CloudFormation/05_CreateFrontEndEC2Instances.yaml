@@ -53,7 +53,7 @@ Resources:
       KeyName: !Ref KeyName
       Tags:
         - Key: Name
-          Value: !Sub "${AWS::StackName}-FrontEnd-Server"
+          Value: !Sub "${AWS::StackName}-FrontEnd-Server-01"
         - Key: Project
           Value: CloudChaps_Resorts
         - Key: Environment
@@ -80,3 +80,10 @@ Resources:
             # 3. Enable and restart Tomcat
             systemctl enable tomcat10
             systemctl restart tomcat10
+  
+Outputs:
+  FrontEndPrivateIP:
+    Description: Frontend EC2 private IP
+    Value: !GetAtt ccFrontendServer.PrivateIp
+    Export:
+      Name: !Sub ${AWS::StackName}-ccFrontendServer

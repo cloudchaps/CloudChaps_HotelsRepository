@@ -43,7 +43,11 @@ jobs:
     
     - name: Validate EC2 Frontend Instances Cloudformation template files
       run: |
-        aws cloudformation validate-template --template-body file://./10_CloudFormation/05_CreateFrontEndEC2Instances.yaml
+        aws cloudformation validate-template --template-body file://./10_CloudFormation/05_CreateFrontEndWebServers.yaml
+    
+    - name: Validate TargetGroup Cloudformation template files
+      run: |
+        aws cloudformation validate-template --template-body file://./10_CloudFormation/06_CreateTargetGroups.yaml
     
   deployment:
     needs: validation
@@ -106,10 +110,10 @@ jobs:
             KeyName=cloudchaps_resorts_keypair \
             Environment=development
     
-    - name: Deploy Frontend EC2 Instances
+    - name: Deploy Frontend web Servers
       run: |
         aws cloudformation deploy \
-          --template-file ./10_CloudFormation/05_CreateFrontEndEC2Instances.yaml \
+          --template-file ./10_CloudFormation/05_CreateFrontEndWebServers.yaml \
           --stack-name DEV05EC2FrontServersInstances \
           --role-arn ${{ secrets.DEV_ROLE_ARN }} \
           --parameter-overrides \
@@ -118,4 +122,22 @@ jobs:
             Environment=development \
             DBServerPrivateIP=$(aws cloudformation list-exports \
               --query "Exports[?Name=='DEV04EC2BackendInstances-BackendPrivateIP'].Value" \
+              --output text)
+
+    - name: Deploy web servers target group
+      run: |
+        aws cloudformation deploy \
+          --template-file ./10_CloudFormation/05_CreateFrontEndEC2Instances.yaml \
+          --stack-name DEV06WebServersTargetGroup \
+          --role-arn ${{ secrets.DEV_ROLE_ARN }} \
+          --parameter-overrides \
+            Environment=development \
+            WEBServerPrivateIP1=$(aws cloudformation list-exports \
+              --query "Exports[?Name=='DEV05EC2FrontServersInstances-ccFrontendServer1'].Value" \
+              --output text)
+            WEBServerPrivateIP2=$(aws cloudformation list-exports \
+              --query "Exports[?Name=='DEV05EC2FrontServersInstances-ccFrontendServer2'].Value" \
+              --output text) \
+            WEBServerPrivateIP3=$(aws cloudformation list-exports \
+              --query "Exports[?Name=='DEV05EC2FrontServersInstances-ccFrontendServer3'].Value" \
               --output text)

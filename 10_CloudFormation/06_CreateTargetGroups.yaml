@@ -1,0 +1,43 @@
+---
+AWSTemplateFormatVersion: "2010-09-09"
+Description: CloudChaps EC2 instances stack Frontend target SecurityGroupIds
+
+Parameters:
+  TargetGroupName:
+    Description: Please enter the target group name
+    Type: String
+    Default: CloudChapsTG
+  
+  WEBServerPrivateIP1:
+    Type: String
+    Default: 10.0.2.100
+    Description: Please enter frontend Server Private IP - 01
+  
+  WEBServerPrivateIP2:
+    Type: String
+    Default: 10.0.2.100
+    Description: Please enter frontend Server Private IP - 02
+  
+  WEBServerPrivateIP3:
+    Type: String
+    Default: 10.0.2.100
+    Description: Please enter frontend Server Private IP - 03
+
+Resources:
+
+  ccFrontEndTargetGroup:
+    Type: AWS::ElasticLoadBalancingV2::TargetGroup
+    Properties:
+      Name: !Ref TargetGroupName
+      Protocol: TCP
+      Port: 80
+      TargetType: ip
+      VpcId: 
+        Fn::ImportValue: DEV01VPCManagement-MainVPC
+      Targets:
+        - Id: !Ref WEBServerPrivateIP1
+          Port: 80
+        - Id: !Ref WEBServerPrivateIP2
+          Port: 80
+        - Id: !Ref WEBServerPrivateIP3
+          Port: 80

@@ -11,17 +11,17 @@ Parameters:
   WEBServerPrivateIP1:
     Type: String
     Default: 10.0.2.100
-    Description: Please enter frontend Server Private IP - 01
+    Description: Please enter frontend Server Private IP - 1
   
   WEBServerPrivateIP2:
     Type: String
     Default: 10.0.2.100
-    Description: Please enter frontend Server Private IP - 02
+    Description: Please enter frontend Server Private IP - 2
   
   WEBServerPrivateIP3:
     Type: String
     Default: 10.0.2.100
-    Description: Please enter frontend Server Private IP - 03
+    Description: Please enter frontend Server Private IP - 3
 
 Resources:
 

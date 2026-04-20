@@ -134,7 +134,7 @@ jobs:
             Environment=development \
             WEBServerPrivateIP1=$(aws cloudformation list-exports \
               --query "Exports[?Name=='DEV05EC2FrontServersInstances-ccFrontendServer1'].Value" \
-              --output text)
+              --output text) \
             WEBServerPrivateIP2=$(aws cloudformation list-exports \
               --query "Exports[?Name=='DEV05EC2FrontServersInstances-ccFrontendServer2'].Value" \
               --output text) \

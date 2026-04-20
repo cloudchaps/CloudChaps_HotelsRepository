@@ -127,7 +127,7 @@ jobs:
     - name: Deploy web servers target group
       run: |
         aws cloudformation deploy \
-          --template-file ./10_CloudFormation/05_CreateFrontEndEC2Instances.yaml \
+          --template-file ./10_CloudFormation/06_CreateTargetGroups.yaml \
           --stack-name DEV06WebServersTargetGroup \
           --role-arn ${{ secrets.DEV_ROLE_ARN }} \
           --parameter-overrides \

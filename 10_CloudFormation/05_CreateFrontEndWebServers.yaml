@@ -58,7 +58,7 @@ Resources:
           KeyName: !Ref KeyName
           Tags:
             - Key: Name
-              Value: !Sub "${AWS::StackName}-FrontEnd-Server-01"
+              Value: !Sub "${AWS::StackName}-FrontEnd-Server-${InstanceId}"
             - Key: Project
               Value: CloudChaps_Resorts
             - Key: Environment

@@ -55,6 +55,7 @@ Resources:
       Scheme: internet-facing  # or internal if truly private
       Subnets: 
         - Fn::ImportValue: DEV01VPCManagement-PublicSubnet
+        - Fn::ImportValue: DEV01VPCManagement-PublicSubnetReplica
       SecurityGroups: 
         - Fn::ImportValue: DEV02SecurityGroupsManagement-ccWebServerSecurityGroup
 

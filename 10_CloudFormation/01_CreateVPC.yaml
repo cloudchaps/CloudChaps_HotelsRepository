@@ -11,7 +11,12 @@ Parameters:
   PublicSubnetCidr:
     Description: Please enter the IP range (CIDR notation) for the public Subnet
     Type: String
-    Default: 10.0.0.0/25
+    Default: 10.0.0.0/26
+
+  PublicSubnetCidrReplica:
+    Description: Please enter the IP range (CIDR notation) for the public Subnet Replica
+    Type: String
+    Default: 10.0.0.64/26
 
   PrivateSubnetCidr:
     Description: Please enter the IP range (CIDR notation) for the private Subnet
@@ -85,6 +90,23 @@ Resources:
           Value: !Ref Env
         - Key: Owner
           Value: !Ref AWS::AccountId
+  
+  PublicSubnetReplica:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref MainVPC
+      CidrBlock: !Ref PublicSubnetCidrReplica
+      AvailabilityZone: !Select [1, !GetAZs '']
+      MapPublicIpOnLaunch: true
+      Tags:
+        - Key: Name
+          Value: !Sub "${VPCName}-PublicSubnet-Replica"
+        - Key: Project
+          Value: CloudChaps_Resorts
+        - Key: Environment
+          Value: !Ref Env
+        - Key: Owner
+          Value: !Ref AWS::AccountId
 
 # 05 - Create Public Route Table
   CCPublicRouteTable:
@@ -145,6 +167,11 @@ Outputs:
     Export:
       Name: !Sub ${AWS::StackName}-PublicSubnet
     Value: !Ref PublicSubnet
+
+  PublicSubnetIdReplica:
+    Export:
+      Name: !Sub ${AWS::StackName}-PublicSubnetReplica
+    Value: !Ref PublicSubnetReplica
 
   PrivateSubnetId:
     Export:

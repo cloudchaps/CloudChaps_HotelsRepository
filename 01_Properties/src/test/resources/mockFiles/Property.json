@@ -1,0 +1,40 @@
+{
+    "name": "Silene campanulata S. Watson",
+    "address": "59468 Annamark Place",
+    "type": "MOTEL",
+    "phone": "874-254-4458",
+    "roomsAvailable": 21,
+    "rating": 9,
+    "brand": "Lisinopril",
+    "description": "Variety pack of sticky notes in different colors and sizes.",
+    "amenities": [
+        {
+            "amenityName": "Pseudalopex gymnocercus",
+            "amenityType": "PARKING",
+            "amenityDescription": "Soft oatmeal cookies with maple and pecans.",
+            "isIncluded": true,
+            "amenityCost": 3.99
+        },
+        {
+            "amenityName": "Microcebus murinus",
+            "amenityType": "CONCIERGE",
+            "amenityDescription": "Love-themed molds for creating desserts and treats.",
+            "isIncluded": true,
+            "amenityCost": 10.99
+        },
+        {
+            "amenityName": "Myiarchus tuberculifer",
+            "amenityType": "SAUNA",
+            "amenityDescription": "Ready-to-eat salad with quinoa and kale, drizzled with vinaigrette.",
+            "isIncluded": true,
+            "amenityCost": 5.29
+        },
+        {
+            "amenityName": "Dendrocitta vagabunda",
+            "amenityType": "ROOM_SERVICE",
+            "amenityDescription": "Refreshing basil-infused lemonade for a cool drink.",
+            "isIncluded": false,
+            "amenityCost": 2.99
+        }
+    ]
+}

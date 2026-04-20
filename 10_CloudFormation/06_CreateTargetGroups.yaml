@@ -7,6 +7,11 @@ Parameters:
     Description: Please enter the target group name
     Type: String
     Default: CloudChapsTG
+
+  LoadBalancerName:
+    Description: Please enter the Load Balancer name
+    Type: String
+    Default: CloudChapsALB
   
   WEBServerPrivateIP1:
     Type: String
@@ -36,8 +41,29 @@ Resources:
         Fn::ImportValue: DEV01VPCManagement-MainVPC
       Targets:
         - Id: !Ref WEBServerPrivateIP1
-          Port: 80
+          Port: 8080
         - Id: !Ref WEBServerPrivateIP2
-          Port: 80
+          Port: 8080
         - Id: !Ref WEBServerPrivateIP3
-          Port: 80
+          Port: 8080
+  
+  ccLoadBalancer:
+    Type: AWS::ElasticLoadBalancingV2::LoadBalancer
+    Properties:
+      Name: !Ref LoadBalancerName
+      Type: application
+      Scheme: internet-facing  # or internal if truly private
+      Subnets: 
+        - Fn::ImportValue: DEV01VPCManagement-PublicSubnet
+      SecurityGroups: 
+        - Fn::ImportValue: DEV02SecurityGroupsManagement-ccWebServerSecurityGroup
+
+  ccListener:
+    Type: AWS::ElasticLoadBalancingV2::Listener
+    Properties:
+      LoadBalancerArn: !Ref ccLoadBalancer
+      Port: 8080
+      Protocol: HTTP
+      DefaultActions:
+        - Type: forward
+          TargetGroupArn: !Ref ccFrontEndTargetGroup

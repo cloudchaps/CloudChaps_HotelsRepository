@@ -6,22 +6,22 @@ Parameters:
   VPCCidr:
     Description: Please enter the IP range (CIDR notation) for this VPC required value
     Type: String
-    Default: 10.0.0.0/24
+    Default: 10.0.0.0/23
 
   PublicSubnetCidr:
     Description: Please enter the IP range (CIDR notation) for the public Subnet
     Type: String
-    Default: 10.0.0.0/27
+    Default: 10.0.0.0/25
 
   PublicSubnetCidrReplica:
     Description: Please enter the IP range (CIDR notation) for the public Subnet Replica
     Type: String
-    Default: 10.0.0.32/27
+    Default: 10.0.0.128/25
 
   PrivateSubnetCidr:
     Description: Please enter the IP range (CIDR notation) for the private Subnet
     Type: String
-    Default: 10.0.0.128/25
+    Default: 10.0.1.0/24
 
   VPCName:
     Description: Please enter the name for this VPC
